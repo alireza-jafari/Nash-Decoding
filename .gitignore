@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Run outputs. Each run script writes one JSON per example under a `runs/`
+# directory beside it; the distilled per-example predictions that every table is
+# rebuilt from are committed under artifacts/ instead.
+experiments/*/runs/
+experiments/*/*/runs/

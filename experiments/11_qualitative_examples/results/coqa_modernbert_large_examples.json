@@ -1,0 +1,98 @@
+[
+ {
+  "id": "3018q3zvoiqh6tkjkzarysii2vbarg_5",
+  "question": "Who are some likely competition to him?",
+  "prediction": "Mitt Romney and Jeb Bush",
+  "references": [
+   "Mitt Romney and Jeb Bush",
+   "Mitt Romney and Jeb Bush",
+   "Mitt Romney and Jeb Bush",
+   "Mitt Romney and Jeb Bush"
+  ],
+  "f1": 100.0,
+  "slots": 6,
+  "status": "equilibrium",
+  "calls": 27,
+  "highlighted": false
+ },
+ {
+  "id": "3ob0cao74hp5dh4j40cdnayjjsghyv_6",
+  "question": "Which of them is winning?",
+  "prediction": "Terry McAuliffe.",
+  "references": [
+   "Democrat Terry McAuliffe",
+   "Terry McAuliffe",
+   "Ken Cuccinelli",
+   "Terry McAuliffe"
+  ],
+  "f1": 100.0,
+  "slots": 6,
+  "status": "equilibrium",
+  "calls": 27,
+  "highlighted": false
+ },
+ {
+  "id": "3s3amizx3u5byyycmcbyzyr2o96cd4_6",
+  "question": "what promise was the driver given?",
+  "prediction": "That he'd look you over in the course of a month.",
+  "references": [
+   "he'd look you over in the course of a month or two",
+   "that Josh would look Seth over in the course of a month or two",
+   "he'd look you over in the course of a month or two",
+   "the best promise"
+  ],
+  "f1": 84.21052631578948,
+  "slots": 13,
+  "status": "equilibrium",
+  "calls": 117,
+  "highlighted": false
+ },
+ {
+  "id": "3z2r0dq0jhe3smkalexct301cxq2eg_16",
+  "question": "What is their name?",
+  "prediction": "Paikuisha Saravanamuttu.",
+  "references": [
+   "Paikiasothy Saravanamuttu",
+   "Paikiasothy Saravanamuttu",
+   "Paikiasothy Saravanamuttu",
+   "Paikiasothy Saravanamuttu"
+  ],
+  "f1": 50.0,
+  "slots": 9,
+  "status": "equilibrium",
+  "calls": 62,
+  "highlighted": false
+ },
+ {
+  "id": "3zazr5xv01ie1z38eu0vqqa5cu0czt_9",
+  "question": "Why?",
+  "prediction": "Because it is the height above the terrain, not the height of the terrain.",
+  "references": [
+   "So that stations can be recieved on either side of the international boundaries.",
+   "Stations can be received on either side of the international boundaries",
+   "extensive border zones where stations can be received on either side of the international boundaries",
+   "For international coordination"
+  ],
+  "f1": 10.000000000000002,
+  "slots": 16,
+  "status": "equilibrium",
+  "calls": 215,
+  "highlighted": false
+ },
+ {
+  "id": "3zy8ke4isj31mg8hifcnppmqssxvq7_8",
+  "question": "what did Leo's father say about the meeting?",
+  "prediction": "\"It's not happening tomorrow.\"",
+  "references": [
+   "We have plenty of time no rush",
+   "unknown",
+   "unknown",
+   "unknown"
+  ],
+  "f1": 0.0,
+  "slots": 7,
+  "status": "equilibrium",
+  "calls": 42,
+  "highlighted": false
+ }
+]

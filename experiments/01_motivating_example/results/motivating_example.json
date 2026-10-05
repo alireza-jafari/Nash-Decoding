@@ -1,0 +1,794 @@
+[
+ {
+  "example": 1,
+  "continuation_source": "greedy",
+  "question": "What famous city is the capital of Spain?",
+  "prompt": "What famous city is the capital of Spain? ",
+  "prompt_ids": [
+   2061,
+   5863,
+   1748,
+   318,
+   262,
+   3139,
+   286,
+   8602,
+   30,
+   220
+  ],
+  "greedy": " The city of Barcelona is the capital of Spain.",
+  "equilibrium": " The city of Madrid is the capital of Spain.",
+  "status": "equilibrium",
+  "log_probabilities": [
+   -20.29431915283203,
+   -20.06391143798828
+  ],
+  "total_ratio": 1.2591132644595053,
+  "steps": [
+   {
+    "step": 1,
+    "nash_gap": 0.06879940629005432,
+    "position": 4,
+    "from": " Barcelona",
+    "to": " Madrid",
+    "log_probability": -20.06391143798828,
+    "ratio": 1.2591132644595053
+   }
+  ],
+  "scans": [
+   {
+    "step": 1,
+    "nash_gap": 0.06879940629005432,
+    "players": [
+     {
+      "position": 1,
+      "token": " The",
+      "p_current": 0.6681312322616577,
+      "best": " The",
+      "p_best": 0.6681312322616577,
+      "gap": 0.0
+     },
+     {
+      "position": 2,
+      "token": " city",
+      "p_current": 0.855895459651947,
+      "best": " city",
+      "p_best": 0.855895459651947,
+      "gap": 0.0
+     },
+     {
+      "position": 3,
+      "token": " of",
+      "p_current": 0.9959075450897217,
+      "best": " of",
+      "p_best": 0.9959075450897217,
+      "gap": 0.0
+     },
+     {
+      "position": 4,
+      "token": " Barcelona",
+      "p_current": 0.26547926664352417,
+      "best": " Madrid",
+      "p_best": 0.3342786729335785,
+      "gap": 0.06879940629005432
+     },
+     {
+      "position": 5,
+      "token": " is",
+      "p_current": 0.8987274765968323,
+      "best": " is",
+      "p_best": 0.8987274765968323,
+      "gap": 0.0
+     },
+     {
+      "position": 6,
+      "token": " the",
+      "p_current": 0.9935587048530579,
+      "best": " the",
+      "p_best": 0.9935587048530579,
+      "gap": 0.0
+     },
+     {
+      "position": 7,
+      "token": " capital",
+      "p_current": 0.9701130390167236,
+      "best": " capital",
+      "p_best": 0.9701130390167236,
+      "gap": 0.0
+     },
+     {
+      "position": 8,
+      "token": " of",
+      "p_current": 0.9970253109931946,
+      "best": " of",
+      "p_best": 0.9970253109931946,
+      "gap": 0.0
+     },
+     {
+      "position": 9,
+      "token": " Spain",
+      "p_current": 0.8607364296913147,
+      "best": " Spain",
+      "p_best": 0.8607364296913147,
+      "gap": 0.0
+     },
+     {
+      "position": 10,
+      "token": ".",
+      "p_current": 0.5278780460357666,
+      "best": ".",
+      "p_best": 0.5278780460357666,
+      "gap": 0.0
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "nash_gap": 0.0,
+    "players": [
+     {
+      "position": 1,
+      "token": " The",
+      "p_current": 0.6763110756874084,
+      "best": " The",
+      "p_best": 0.6763110756874084,
+      "gap": 0.0
+     },
+     {
+      "position": 2,
+      "token": " city",
+      "p_current": 0.7978262901306152,
+      "best": " city",
+      "p_best": 0.7978262901306152,
+      "gap": 0.0
+     },
+     {
+      "position": 3,
+      "token": " of",
+      "p_current": 0.9931660294532776,
+      "best": " of",
+      "p_best": 0.9931660294532776,
+      "gap": 0.0
+     },
+     {
+      "position": 4,
+      "token": " Madrid",
+      "p_current": 0.3342786729335785,
+      "best": " Madrid",
+      "p_best": 0.3342786729335785,
+      "gap": 0.0
+     },
+     {
+      "position": 5,
+      "token": " is",
+      "p_current": 0.9344635009765625,
+      "best": " is",
+      "p_best": 0.9344635009765625,
+      "gap": 0.0
+     },
+     {
+      "position": 6,
+      "token": " the",
+      "p_current": 0.9925116300582886,
+      "best": " the",
+      "p_best": 0.9925116300582886,
+      "gap": 0.0
+     },
+     {
+      "position": 7,
+      "token": " capital",
+      "p_current": 0.9738277792930603,
+      "best": " capital",
+      "p_best": 0.9738277792930603,
+      "gap": 0.0
+     },
+     {
+      "position": 8,
+      "token": " of",
+      "p_current": 0.9972230195999146,
+      "best": " of",
+      "p_best": 0.9972230195999146,
+      "gap": 0.0
+     },
+     {
+      "position": 9,
+      "token": " Spain",
+      "p_current": 0.9452210664749146,
+      "best": " Spain",
+      "p_best": 0.9452210664749146,
+      "gap": 0.0
+     },
+     {
+      "position": 10,
+      "token": ".",
+      "p_current": 0.5172553658485413,
+      "best": ".",
+      "p_best": 0.5172553658485413,
+      "gap": 0.0
+     }
+    ]
+   }
+  ],
+  "monotone": true,
+  "conditional_table": {
+   "rows": [
+    {
+     "token": " Madrid",
+     "autoregressive": 0.09035226702690125,
+     "full_context": 0.3342786729335785
+    },
+    {
+     "token": " Barcelona",
+     "autoregressive": 0.10356409847736359,
+     "full_context": 0.26547926664352417
+    },
+    {
+     "token": " Valencia",
+     "autoregressive": 0.05194038897752762,
+     "full_context": 0.15071921050548553
+    },
+    {
+     "token": " Spain",
+     "autoregressive": 0.01603071019053459,
+     "full_context": 0.06659902632236481
+    },
+    {
+     "token": " Catalonia",
+     "autoregressive": 0.011558562517166138,
+     "full_context": 0.03048602305352688
+    }
+   ],
+   "gap": 0.06879940629005432
+  }
+ },
+ {
+  "example": 2,
+  "continuation_source": "greedy",
+  "question": "What city is the political capital of Spain?",
+  "prompt": "What city is the political capital of Spain?\n\n",
+  "prompt_ids": [
+   2061,
+   1748,
+   318,
+   262,
+   1964,
+   3139,
+   286,
+   8602,
+   30,
+   198,
+   198
+  ],
+  "greedy": "The answer is Barcelona. The city is the capital of Spain. It is the capital of Spain.",
+  "equilibrium": "The answer is Madrid. The city is the capital of Spain. Madrid is the capital of Spain.",
+  "status": "equilibrium",
+  "log_probabilities": [
+   -25.888776779174805,
+   -25.619831085205078,
+   -25.35160255432129
+  ],
+  "total_ratio": 1.7111646573556156,
+  "steps": [
+   {
+    "step": 1,
+    "nash_gap": 0.09379613399505615,
+    "position": 4,
+    "from": " Barcelona",
+    "to": " Madrid",
+    "log_probability": -25.619831085205078,
+    "ratio": 1.3085840751104314
+   },
+   {
+    "step": 2,
+    "nash_gap": 0.09719899296760559,
+    "position": 14,
+    "from": " It",
+    "to": " Madrid",
+    "log_probability": -25.35160255432129,
+    "ratio": 1.3076459433538579
+   }
+  ],
+  "scans": [
+   {
+    "step": 1,
+    "nash_gap": 0.09379613399505615,
+    "players": [
+     {
+      "position": 1,
+      "token": "The",
+      "p_current": 0.9771437644958496,
+      "best": "The",
+      "p_best": 0.9771437644958496,
+      "gap": 0.0
+     },
+     {
+      "position": 2,
+      "token": " answer",
+      "p_current": 0.7873876094818115,
+      "best": " answer",
+      "p_best": 0.7873876094818115,
+      "gap": 0.0
+     },
+     {
+      "position": 3,
+      "token": " is",
+      "p_current": 0.9199730753898621,
+      "best": " is",
+      "p_best": 0.9199730753898621,
+      "gap": 0.0
+     },
+     {
+      "position": 4,
+      "token": " Barcelona",
+      "p_current": 0.3039417266845703,
+      "best": " Madrid",
+      "p_best": 0.39773786067962646,
+      "gap": 0.09379613399505615
+     },
+     {
+      "position": 5,
+      "token": ".",
+      "p_current": 0.9664028882980347,
+      "best": ".",
+      "p_best": 0.9664028882980347,
+      "gap": 0.0
+     },
+     {
+      "position": 6,
+      "token": " The",
+      "p_current": 0.790195643901825,
+      "best": " The",
+      "p_best": 0.790195643901825,
+      "gap": 0.0
+     },
+     {
+      "position": 7,
+      "token": " city",
+      "p_current": 0.8509680032730103,
+      "best": " city",
+      "p_best": 0.8509680032730103,
+      "gap": 0.0
+     },
+     {
+      "position": 8,
+      "token": " is",
+      "p_current": 0.995074450969696,
+      "best": " is",
+      "p_best": 0.995074450969696,
+      "gap": 0.0
+     },
+     {
+      "position": 9,
+      "token": " the",
+      "p_current": 0.9676952958106995,
+      "best": " the",
+      "p_best": 0.9676952958106995,
+      "gap": 0.0
+     },
+     {
+      "position": 10,
+      "token": " capital",
+      "p_current": 0.7115923762321472,
+      "best": " capital",
+      "p_best": 0.7115923762321472,
+      "gap": 0.0
+     },
+     {
+      "position": 11,
+      "token": " of",
+      "p_current": 0.9959808588027954,
+      "best": " of",
+      "p_best": 0.9959808588027954,
+      "gap": 0.0
+     },
+     {
+      "position": 12,
+      "token": " Spain",
+      "p_current": 0.5861191153526306,
+      "best": " Spain",
+      "p_best": 0.5861191153526306,
+      "gap": 0.0
+     },
+     {
+      "position": 13,
+      "token": ".",
+      "p_current": 0.9958534240722656,
+      "best": ".",
+      "p_best": 0.9958534240722656,
+      "gap": 0.0
+     },
+     {
+      "position": 14,
+      "token": " It",
+      "p_current": 0.27087587118148804,
+      "best": " Madrid",
+      "p_best": 0.31435996294021606,
+      "gap": 0.04348409175872803
+     },
+     {
+      "position": 15,
+      "token": " is",
+      "p_current": 0.6748170256614685,
+      "best": " is",
+      "p_best": 0.6748170256614685,
+      "gap": 0.0
+     },
+     {
+      "position": 16,
+      "token": " the",
+      "p_current": 0.9757241606712341,
+      "best": " the",
+      "p_best": 0.9757241606712341,
+      "gap": 0.0
+     },
+     {
+      "position": 17,
+      "token": " capital",
+      "p_current": 0.6294321417808533,
+      "best": " capital",
+      "p_best": 0.6294321417808533,
+      "gap": 0.0
+     },
+     {
+      "position": 18,
+      "token": " of",
+      "p_current": 0.9975157976150513,
+      "best": " of",
+      "p_best": 0.9975157976150513,
+      "gap": 0.0
+     },
+     {
+      "position": 19,
+      "token": " Spain",
+      "p_current": 0.5024789571762085,
+      "best": " Spain",
+      "p_best": 0.5024789571762085,
+      "gap": 0.0
+     },
+     {
+      "position": 20,
+      "token": ".",
+      "p_current": 0.48569199442863464,
+      "best": ".",
+      "p_best": 0.48569199442863464,
+      "gap": 0.0
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "nash_gap": 0.09719899296760559,
+    "players": [
+     {
+      "position": 1,
+      "token": "The",
+      "p_current": 0.9738370776176453,
+      "best": "The",
+      "p_best": 0.9738370776176453,
+      "gap": 0.0
+     },
+     {
+      "position": 2,
+      "token": " answer",
+      "p_current": 0.64497971534729,
+      "best": " answer",
+      "p_best": 0.64497971534729,
+      "gap": 0.0
+     },
+     {
+      "position": 3,
+      "token": " is",
+      "p_current": 0.8223227262496948,
+      "best": " is",
+      "p_best": 0.8223227262496948,
+      "gap": 0.0
+     },
+     {
+      "position": 4,
+      "token": " Madrid",
+      "p_current": 0.39773786067962646,
+      "best": " Madrid",
+      "p_best": 0.39773786067962646,
+      "gap": 0.0
+     },
+     {
+      "position": 5,
+      "token": ".",
+      "p_current": 0.9757199883460999,
+      "best": ".",
+      "p_best": 0.9757199883460999,
+      "gap": 0.0
+     },
+     {
+      "position": 6,
+      "token": " The",
+      "p_current": 0.826865553855896,
+      "best": " The",
+      "p_best": 0.826865553855896,
+      "gap": 0.0
+     },
+     {
+      "position": 7,
+      "token": " city",
+      "p_current": 0.7149460911750793,
+      "best": " city",
+      "p_best": 0.7149460911750793,
+      "gap": 0.0
+     },
+     {
+      "position": 8,
+      "token": " is",
+      "p_current": 0.9947943091392517,
+      "best": " is",
+      "p_best": 0.9947943091392517,
+      "gap": 0.0
+     },
+     {
+      "position": 9,
+      "token": " the",
+      "p_current": 0.9755142331123352,
+      "best": " the",
+      "p_best": 0.9755142331123352,
+      "gap": 0.0
+     },
+     {
+      "position": 10,
+      "token": " capital",
+      "p_current": 0.7769290208816528,
+      "best": " capital",
+      "p_best": 0.7769290208816528,
+      "gap": 0.0
+     },
+     {
+      "position": 11,
+      "token": " of",
+      "p_current": 0.9966322779655457,
+      "best": " of",
+      "p_best": 0.9966322779655457,
+      "gap": 0.0
+     },
+     {
+      "position": 12,
+      "token": " Spain",
+      "p_current": 0.8561343550682068,
+      "best": " Spain",
+      "p_best": 0.8561343550682068,
+      "gap": 0.0
+     },
+     {
+      "position": 13,
+      "token": ".",
+      "p_current": 0.9961085915565491,
+      "best": ".",
+      "p_best": 0.9961085915565491,
+      "gap": 0.0
+     },
+     {
+      "position": 14,
+      "token": " It",
+      "p_current": 0.31600597500801086,
+      "best": " Madrid",
+      "p_best": 0.41320496797561646,
+      "gap": 0.09719899296760559
+     },
+     {
+      "position": 15,
+      "token": " is",
+      "p_current": 0.7092341184616089,
+      "best": " is",
+      "p_best": 0.7092341184616089,
+      "gap": 0.0
+     },
+     {
+      "position": 16,
+      "token": " the",
+      "p_current": 0.9796335697174072,
+      "best": " the",
+      "p_best": 0.9796335697174072,
+      "gap": 0.0
+     },
+     {
+      "position": 17,
+      "token": " capital",
+      "p_current": 0.6845252513885498,
+      "best": " capital",
+      "p_best": 0.6845252513885498,
+      "gap": 0.0
+     },
+     {
+      "position": 18,
+      "token": " of",
+      "p_current": 0.9981616139411926,
+      "best": " of",
+      "p_best": 0.9981616139411926,
+      "gap": 0.0
+     },
+     {
+      "position": 19,
+      "token": " Spain",
+      "p_current": 0.7111104130744934,
+      "best": " Spain",
+      "p_best": 0.7111104130744934,
+      "gap": 0.0
+     },
+     {
+      "position": 20,
+      "token": ".",
+      "p_current": 0.5033663511276245,
+      "best": ".",
+      "p_best": 0.5033663511276245,
+      "gap": 0.0
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "nash_gap": 0.0,
+    "players": [
+     {
+      "position": 1,
+      "token": "The",
+      "p_current": 0.9724414944648743,
+      "best": "The",
+      "p_best": 0.9724414944648743,
+      "gap": 0.0
+     },
+     {
+      "position": 2,
+      "token": " answer",
+      "p_current": 0.6833979487419128,
+      "best": " answer",
+      "p_best": 0.6833979487419128,
+      "gap": 0.0
+     },
+     {
+      "position": 3,
+      "token": " is",
+      "p_current": 0.7259515523910522,
+      "best": " is",
+      "p_best": 0.7259515523910522,
+      "gap": 0.0
+     },
+     {
+      "position": 4,
+      "token": " Madrid",
+      "p_current": 0.4193721115589142,
+      "best": " Madrid",
+      "p_best": 0.4193721115589142,
+      "gap": 0.0
+     },
+     {
+      "position": 5,
+      "token": ".",
+      "p_current": 0.9755848050117493,
+      "best": ".",
+      "p_best": 0.9755848050117493,
+      "gap": 0.0
+     },
+     {
+      "position": 6,
+      "token": " The",
+      "p_current": 0.8486207127571106,
+      "best": " The",
+      "p_best": 0.8486207127571106,
+      "gap": 0.0
+     },
+     {
+      "position": 7,
+      "token": " city",
+      "p_current": 0.6804113388061523,
+      "best": " city",
+      "p_best": 0.6804113388061523,
+      "gap": 0.0
+     },
+     {
+      "position": 8,
+      "token": " is",
+      "p_current": 0.9947810769081116,
+      "best": " is",
+      "p_best": 0.9947810769081116,
+      "gap": 0.0
+     },
+     {
+      "position": 9,
+      "token": " the",
+      "p_current": 0.9814059734344482,
+      "best": " the",
+      "p_best": 0.9814059734344482,
+      "gap": 0.0
+     },
+     {
+      "position": 10,
+      "token": " capital",
+      "p_current": 0.8614128232002258,
+      "best": " capital",
+      "p_best": 0.8614128232002258,
+      "gap": 0.0
+     },
+     {
+      "position": 11,
+      "token": " of",
+      "p_current": 0.9969505071640015,
+      "best": " of",
+      "p_best": 0.9969505071640015,
+      "gap": 0.0
+     },
+     {
+      "position": 12,
+      "token": " Spain",
+      "p_current": 0.9417870044708252,
+      "best": " Spain",
+      "p_best": 0.9417870044708252,
+      "gap": 0.0
+     },
+     {
+      "position": 13,
+      "token": ".",
+      "p_current": 0.7450121641159058,
+      "best": ".",
+      "p_best": 0.7450121641159058,
+      "gap": 0.0
+     },
+     {
+      "position": 14,
+      "token": " Madrid",
+      "p_current": 0.41320496797561646,
+      "best": " Madrid",
+      "p_best": 0.41320496797561646,
+      "gap": 0.0
+     },
+     {
+      "position": 15,
+      "token": " is",
+      "p_current": 0.9927598237991333,
+      "best": " is",
+      "p_best": 0.9927598237991333,
+      "gap": 0.0
+     },
+     {
+      "position": 16,
+      "token": " the",
+      "p_current": 0.983146607875824,
+      "best": " the",
+      "p_best": 0.983146607875824,
+      "gap": 0.0
+     },
+     {
+      "position": 17,
+      "token": " capital",
+      "p_current": 0.7615988850593567,
+      "best": " capital",
+      "p_best": 0.7615988850593567,
+      "gap": 0.0
+     },
+     {
+      "position": 18,
+      "token": " of",
+      "p_current": 0.9981094598770142,
+      "best": " of",
+      "p_best": 0.9981094598770142,
+      "gap": 0.0
+     },
+     {
+      "position": 19,
+      "token": " Spain",
+      "p_current": 0.9439665675163269,
+      "best": " Spain",
+      "p_best": 0.9439665675163269,
+      "gap": 0.0
+     },
+     {
+      "position": 20,
+      "token": ".",
+      "p_current": 0.7499282360076904,
+      "best": ".",
+      "p_best": 0.7499282360076904,
+      "gap": 0.0
+     }
+    ]
+   }
+  ],
+  "monotone": true,
+  "conditional_table": null
+ }
+]

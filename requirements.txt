@@ -1,0 +1,12 @@
+# Core: the masked encoders, the autoregressive baselines and scoring.
+torch>=2.4
+transformers>=4.48
+tokenizers>=0.20
+rouge-score>=0.1.2
+numpy>=1.26
+safetensors>=0.4
+
+# Optional. matplotlib is needed only by the --figures flags; the tables are built
+# without it.
+matplotlib>=3.8
+

@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\begin{tabular}{llccccccccc}
+\toprule
+& & \multicolumn{3}{c}{CoQA} & \multicolumn{3}{c}{PubMedQA} & \multicolumn{3}{c}{CLAPNQ} \\
+\textbf{Model} & \textbf{Size} & \textbf{F1} & \textbf{R-L} & \textbf{R-Ls} & \textbf{F1} & \textbf{R-L} & \textbf{R-Ls} & \textbf{F1} & \textbf{R-L} & \textbf{R-Ls} \\
+\midrule
+\multicolumn{11}{l}{\textit{One-shot masked LMs (not fine-tuned)}} \\
+RoBERTa-Large & 355M & 28.00 & 31.45 & 31.46 & 7.99 & 8.21 & 8.74 & 5.94 & 10.38 & 10.59 \\
+ModernBERT-Large & 395M & 39.54 & 42.92 & 42.93 & 5.93 & 7.95 & 8.34 & 7.03 & 12.05 & 12.66 \\
+Ettin-400m & 396M & 43.87 & 46.22 & 46.24 & 4.03 & 4.55 & 4.76 & 6.97 & 11.78 & 12.41 \\
+\midrule
+\multicolumn{11}{l}{\textit{Autoregressive models}} \\
+OPT-350M & 331M & 27.16 & 29.86 & 29.94 & 23.43 & 20.43 & 21.41 & 33.21 & 32.14 & 33.39 \\
+SmolLM2-360M & 362M & 52.77 & 54.30 & 54.32 & 21.56 & 19.71 & 20.57 & 32.62 & 31.02 & 32.66 \\
+GPT-2 Large & 774M & 42.61 & 44.31 & 44.38 & 22.09 & 19.85 & 20.84 & 33.06 & 31.50 & 33.68 \\
+GPT-2 XL & 1.5B & 46.83 & 48.26 & 48.35 & 23.78 & \underline{20.77} & \underline{22.00} & 30.58 & 29.51 & 30.73 \\
+BLOOM-3B & 3B & 56.69 & 56.25 & 56.62 & 22.60 & 19.53 & 21.46 & 34.00 & \underline{32.18} & \underline{34.31} \\
+OLMo-1.7 & 7B & 51.44 & 53.53 & 53.57 & 19.67 & 17.71 & 20.09 & 30.12 & 28.63 & 32.15 \\
+\midrule
+\multicolumn{11}{l}{\textit{Nash decoding with same masked LMs}} \\
+RoBERTa-Large & 355M & 41.35 & 44.02 & 44.04 & \textbf{24.99} & \textbf{21.17} & \textbf{22.69} & 25.25 & 25.59 & 25.17 \\
+ModernBERT-Large & 395M & \underline{58.12} & \underline{58.71} & \underline{58.71} & \underline{24.28} & 20.33 & 21.36 & \textbf{38.04} & \textbf{34.79} & \textbf{37.42} \\
+Ettin-400m & 396M & \textbf{61.79} & \textbf{61.98} & \textbf{62.03} & 22.77 & 20.05 & 21.65 & \underline{34.04} & 31.61 & 33.84 \\
+\bottomrule
+\end{tabular}
+\caption{Results across three question-answering benchmarks under a shared evaluation protocol. Size denotes the number of model parameters; for Nash decoding, it denotes the masked model size. Best results are bolded and second-best results are underlined. The complete benchmark results are reported in Appendix F.}
+\label{tab:main}
+\end{table}

@@ -1,0 +1,12 @@
+{
+ "clapnq_grounded.jsonl": "74d1be0f40bf1c5fe8ad792ae9dce1b2496698380e3dc9cbab5305cc105c05f8",
+ "clapnq_qa_prompt.jsonl": "60e49437935b17110d3ce32544dfa6f9371997c87826d85e01cf4750a3ff5ff3",
+ "clapnq_softinstr.jsonl": "cea170393b82935d5a2d714503e1b33360995c5f11eafc56ad25fa275b76b938",
+ "clapnq_sub.jsonl": "013e5b158293ae7740d409ec3d3ee892badef5ecf5b18507801ddbe1364a2683",
+ "coqa_grounded.jsonl.gz": "3e27f3f9167d524eb16215cd0e173de85aef6a84a146ba4c66bbeb53dfd0b59c",
+ "coqa_paperprompt.jsonl.gz": "e9d301135a1694585b3adbbaaa2d8ca5d6dffa3f1e7a398cc69c8e0be6579a8f",
+ "pubmedqa_grounded.jsonl": "eb7584c5c671243c22279762db440cfa1f1b4c1f1f5066f304a0527ec235cd31",
+ "pubmedqa_qa_prompt.jsonl": "487b462ddfc90e866685a1eef715cebcaf5afbab785f05002d1127e3e8d047ba",
+ "pubmedqa_softinstr.jsonl": "5bf3df7dd2843cffebfc1a0646f5fde5743ad675de7a0a77d31eab389199a1e0",
+ "wikitext512_500.json": "0ed423f7cd81b26c988a6fbfbb5faa2db6771f17ef04a599f056e1d70ac2c8b8"
+}

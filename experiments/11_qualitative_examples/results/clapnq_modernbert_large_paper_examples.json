@@ -1,0 +1,162 @@
+[
+ {
+  "id": "1688288076551153504",
+  "question": "where do they shoot guy's grocery games",
+  "prediction": "Guy's Grocery Games Season 1 was shot inside of an actual grocery store , Field 's Market in West Hills , California .  For Season 2 , the market was built in a 15,500 square foot warehouse in Santa Rosa .",
+  "references": [
+   "Guy's Grocery Games Season 1 was shot inside of an actual grocery store , Field 's Market in West Hills , California. For Season 2 , the market was built in a 15,500 square foot warehouse in Santa Rosa , CA."
+  ],
+  "f1": 98.50746268656717,
+  "slots": 48,
+  "status": "equilibrium",
+  "calls": 1311,
+  "rank": 0,
+  "percentile": 0.0,
+  "highlighted": true
+ },
+ {
+  "id": "8392700517527763056",
+  "question": "where do you get an at hop card",
+  "prediction": "at ticket machines , at ticketing offices , at online retailers , and at selected retail outlets such as bookshops",
+  "references": [
+   "AT HOP card can be purchased online, at ticket machines, at ticketing offices, and at selected retail outlets.",
+   "NA",
+   "You can purchase a card online , at ticket machines , at ticketing offices , and at selected retail outlets such as bookshops .",
+   "Topped-up and monthly passes of AT HOP cards can be purchased in the following ways : online , at ticket machines , at ticketing offices , and at selected retail outlets.",
+   "The AT HOP card can be purchased in the following ways: online, at ticket machines, at ticketing offices, and at selected retail outlets such as bookshops.",
+   "NA",
+   "NA"
+  ],
+  "f1": 83.33333333333333,
+  "slots": 24,
+  "status": "equilibrium",
+  "calls": 335,
+  "rank": 8,
+  "percentile": 0.026755852842809364,
+  "highlighted": false
+ },
+ {
+  "id": "3166251051624897512",
+  "question": "where does water go after it enters a storm drain",
+  "prediction": "Small storm drains may discharge into individual dry wells . Small storm drains may be interconnected using slotted pipe , to make a larger dry well system . Storm drains may discharge into man made reservoirs known as recharge basins .",
+  "references": [
+   "Most drains have a single large exit at their point of discharge into a canal , river , lake , reservoir , sea or ocean, as well as discharge into man - made excavations known as recharge basins or retention ponds .",
+   "Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Small storm drains may discharge into individual dry wells . Storm drains may be interconnected using slotted pipe , to make a larger dry well system . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+  ],
+  "f1": 70.10309278350515,
+  "slots": 47,
+  "status": "equilibrium",
+  "calls": 1260,
+  "rank": 24,
+  "percentile": 0.0802675585284281,
+  "highlighted": false
+ },
+ {
+  "id": "1825594767789845231",
+  "question": "who wrote capitalism and underdevelopment in latin america",
+  "prediction": "andre gunder frank wrote capitalism and underdevelopment",
+  "references": [
+   "Frank wrote Capitalism and Underdevelopment in Latin America.",
+   "Andre Gunder Frank wrote 40 books, the most notable among which was Capitalism and Underdevelopment in Latin America."
+  ],
+  "f1": 66.66666666666666,
+  "slots": 11,
+  "status": "equilibrium",
+  "calls": 77,
+  "rank": 38,
+  "percentile": 0.12709030100334448,
+  "highlighted": false
+ },
+ {
+  "id": "6560700610521845615",
+  "question": "what is the function of insulin and where is it produced",
+  "prediction": "Insulin is a peptide hormone produced by beta cells of the pancreatic islets . It is the main anabolic hormone of the body . It regulates the metabolism of carbohydrates , fats and protein by promoting the absorption of , especially glucose from the blood into liver , fat and skeletal muscle cells . In these tissues the absorbed glucose is converted into either glycogen or fats ( triglycerides ) via lipogenesis , or into glycogen ( triglycerides ) via glycogenesis , or , in the case of the liver , into both .",
+  "references": [
+   "Insulin is a peptide hormone produced by beta cells of the pancreatic islets.  It regulates the metabolism of carbohydrates, fats and protein by promoting the absorption of, especially glucose from the blood into liver, fat and skeletal muscle cells.  Glucose production and secretion by the liver is strongly inhibited by high concentrations of insulin in the blood.  Circulating insulin also affects the synthesis of proteins in a wide variety of tissues promoting the conversion of small molecules in the blood into large molecules inside the cells."
+  ],
+  "f1": 60.13986013986013,
+  "slots": 99,
+  "status": "equilibrium",
+  "calls": 5077,
+  "rank": 58,
+  "percentile": 0.1939799331103679,
+  "highlighted": false
+ },
+ {
+  "id": "-8041775374831436682",
+  "question": "what happens to toby at the end of the office",
+  "prediction": "Toby was fired immediately after Dwight fired Kevin Malone ( it 's likely that the Corporate office fired Toby and Dwight simply had the burden of telling him ) and Toby then moved to New York where he 's trying to become a novelist and has six roommates . Toby surprises his former co-workers at the reunion panel when he says that his life feels meaningless now that he 's not",
+  "references": [
+   "In the series finale, it's revealed that Toby was fired immediately after Dwight fired Kevin Malone and Toby then moved to New York where he's trying to become a novelist and has six roommates.  In a photo gallery NBC released of `` where are they now? '' info, it's revealed that Toby has returned to his destiny by taking on an HR position at a TJ Maxx store.",
+   "In the series finale, it's revealed that Toby was fired and then moved to New York where he's trying to become a novelist. In a photo gallery NBC released of `` where are they now? '' info, it's revealed that Toby has returned to his destiny by taking on an HR position at a TJ Maxx store."
+  ],
+  "f1": 51.2,
+  "slots": 85,
+  "status": "equilibrium",
+  "calls": 4010,
+  "rank": 91,
+  "percentile": 0.30434782608695654,
+  "highlighted": false
+ },
+ {
+  "id": "7012260037231457401",
+  "question": "what was agenda 21 of earth summit of rio de janeiro",
+  "prediction": "Agenda 21 is a non-binding , action plan of the United Nations with regard to sustainable development . It is a product of the Earth Summit ( UN Conference on Environment and Development ) held in Rio de Janeiro , Brazil , in 1992 .\nAnswer:\nEarth Summit",
+  "references": [
+   "Agenda 21 is a non-binding action plan of the United Nations with regard to sustainable development.  It is an action agenda for the UN, other multilateral organizations, and individual governments around the world that can be executed at local, national, and global levels."
+  ],
+  "f1": 47.99999999999999,
+  "slots": 54,
+  "status": "equilibrium",
+  "calls": 1647,
+  "rank": 108,
+  "percentile": 0.3612040133779264,
+  "highlighted": false
+ },
+ {
+  "id": "-6386286690559682770",
+  "question": "which sport awards the oldest trophy in international sports",
+  "prediction": "The America 's Cup is the oldest international sporting trophy . It will next be raced for in the southern summer , in the early part of",
+  "references": [
+   "The America 's Cup is the oldest international sporting trophy awarded to the winner of the America 's Cup match races between two sailing yachts."
+  ],
+  "f1": 42.857142857142854,
+  "slots": 29,
+  "status": "equilibrium",
+  "calls": 464,
+  "rank": 124,
+  "percentile": 0.41471571906354515,
+  "highlighted": false
+ },
+ {
+  "id": "-6448570461904598731",
+  "question": "where do you expect to find a composite cone volcano",
+  "prediction": "Answer:\n\nShield volcano Shield volcanoes are sometimes called `` composite volcanoes '' because of their composite layered structure built up from sequential outpourings of eruptive materials . They are among the most common types of volcanoes , in contrast to the less common shield volcanoes . Two famous shield volcanoes are: .  Question: where do you expect to find a shield volcano?\nThis question is answered completely with evidence from the passage.\nAnswer:\nAnswer:",
+  "references": [
+   "Stratovolcanoes are sometimes called \"composite volcanoes\" because of their composite layered structure built up from sequential outpourings of eruptive materials. Two famous stratovolcanoes are Krakatoa, best known for its catastrophic eruption in 1883 and Vesuvius, famous for its destruction of the towns Pompeii and Herculaneum in 79 CE. In modern times, Mount Saint Helens and Mount Pinatubo have erupted catastrophically."
+  ],
+  "f1": 39.02439024390244,
+  "slots": 98,
+  "status": "equilibrium",
+  "calls": 5187,
+  "rank": 141,
+  "percentile": 0.47157190635451507,
+  "highlighted": false
+ },
+ {
+  "id": "-3630668852329184957",
+  "question": "who takes photos of planes in the air",
+  "prediction": "Who takes photos of planes in the air?\nThis question is answered completely with evidence from the passage.\nAnswer:\nWho takes photos of planes in the air?",
+  "references": [
+   "Air - to - air photography is the art of photographing aircraft in the air , while using another aircraft as a photo platform . It can be used for commercial use and advertising .",
+   "Air - to - air photography is the art of photographing aircraft in the air, while using another aircraft as a photo platform.  The subject aircraft is photographed while both aircraft are in flight."
+  ],
+  "f1": 23.076923076923077,
+  "slots": 36,
+  "status": "equilibrium",
+  "calls": 734,
+  "rank": 208,
+  "percentile": 0.6956521739130435,
+  "highlighted": false
+ }
+]

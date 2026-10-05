@@ -1,0 +1,2390 @@
+{
+ "_comment": [
+  "The numbers of the paper's tables and figures, in machine-readable form.",
+  "Keys are the repository's internal system tags; the display name and the parameter",
+  "count are the ones the paper prints. Source: the arXiv version of the paper.",
+  "table_7_coqa carries two score blocks per row: 'sub5' (the 1,814 questions whose",
+  "gold answer has >=5 ModernBERT tokens; F1/RL/RLsum/calls/chars) and 'all7983' (all",
+  "7,983 CoQA dev turns; F1/RL/RLsum only, as the caption states Calls and Chars are",
+  "reported for the >=5 cohort only).",
+  "Blocks named 'extended_*' are not tables of the paper; they hold the repository's",
+  "values for a comparison the paper describes in prose."
+ ],
+ "table_1_main": {
+  "caption": "Results across three question-answering benchmarks under a shared evaluation protocol. Size denotes the number of model parameters; for Nash decoding, it denotes the masked model size. Best results are bolded and second-best results are underlined. The complete benchmark results are reported in Appendix F.",
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum"
+  ],
+  "datasets": [
+   "coqa",
+   "pubmedqa",
+   "clapnq"
+  ],
+  "blocks": {
+   "oneshot": {
+    "roberta_large": {
+     "name": "RoBERTa-L",
+     "size": "355M",
+     "coqa": [
+      28.0,
+      31.45,
+      31.46
+     ],
+     "pubmedqa": [
+      7.99,
+      8.21,
+      8.74
+     ],
+     "clapnq": [
+      5.94,
+      10.38,
+      10.59
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-L",
+     "size": "395M",
+     "coqa": [
+      39.54,
+      42.92,
+      42.93
+     ],
+     "pubmedqa": [
+      5.93,
+      7.95,
+      8.34
+     ],
+     "clapnq": [
+      7.03,
+      12.05,
+      12.66
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "coqa": [
+      43.87,
+      46.22,
+      46.24
+     ],
+     "pubmedqa": [
+      4.03,
+      4.55,
+      4.76
+     ],
+     "clapnq": [
+      6.97,
+      11.78,
+      12.41
+     ]
+    }
+   },
+   "autoregressive": {
+    "opt_350m": {
+     "name": "OPT-350M",
+     "size": "331M",
+     "coqa": [
+      27.16,
+      29.86,
+      29.94
+     ],
+     "pubmedqa": [
+      23.43,
+      20.43,
+      21.41
+     ],
+     "clapnq": [
+      33.21,
+      32.14,
+      33.39
+     ]
+    },
+    "smollm2_360m": {
+     "name": "SmolLM2-360M",
+     "size": "362M",
+     "coqa": [
+      52.77,
+      54.3,
+      54.32
+     ],
+     "pubmedqa": [
+      21.56,
+      19.71,
+      20.57
+     ],
+     "clapnq": [
+      32.62,
+      31.02,
+      32.66
+     ]
+    },
+    "gpt2_large": {
+     "name": "GPT-2 Large",
+     "size": "774M",
+     "coqa": [
+      42.61,
+      44.31,
+      44.38
+     ],
+     "pubmedqa": [
+      22.09,
+      19.85,
+      20.84
+     ],
+     "clapnq": [
+      33.06,
+      31.5,
+      33.68
+     ]
+    },
+    "gpt2_xl": {
+     "name": "GPT-2 XL",
+     "size": "1.5B",
+     "coqa": [
+      46.83,
+      48.26,
+      48.35
+     ],
+     "pubmedqa": [
+      23.78,
+      20.77,
+      22.0
+     ],
+     "clapnq": [
+      30.58,
+      29.51,
+      30.73
+     ]
+    },
+    "bloom_3b": {
+     "name": "BLOOM",
+     "size": "3B",
+     "coqa": [
+      56.69,
+      56.25,
+      56.62
+     ],
+     "pubmedqa": [
+      22.6,
+      19.53,
+      21.46
+     ],
+     "clapnq": [
+      34.0,
+      32.18,
+      34.31
+     ]
+    },
+    "olmo_17_7b": {
+     "name": "OLMo-1.7",
+     "size": "7B",
+     "coqa": [
+      51.44,
+      53.53,
+      53.57
+     ],
+     "pubmedqa": [
+      19.67,
+      17.71,
+      20.09
+     ],
+     "clapnq": [
+      30.12,
+      28.63,
+      32.15
+     ]
+    }
+   },
+   "nash": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "coqa": [
+      41.35,
+      44.02,
+      44.04
+     ],
+     "pubmedqa": [
+      24.99,
+      21.17,
+      22.69
+     ],
+     "clapnq": [
+      25.25,
+      25.59,
+      25.17
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "coqa": [
+      58.12,
+      58.71,
+      58.71
+     ],
+     "pubmedqa": [
+      24.28,
+      20.33,
+      21.36
+     ],
+     "clapnq": [
+      38.04,
+      34.79,
+      37.42
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "coqa": [
+      61.79,
+      61.98,
+      62.03
+     ],
+     "pubmedqa": [
+      22.77,
+      20.05,
+      21.65
+     ],
+     "clapnq": [
+      34.04,
+      31.61,
+      33.84
+     ]
+    }
+   }
+  },
+  "prose": {
+   "finetuned_coqa_f1": 90.7,
+   "gpt2_xl_all_coqa_f1_reported_by_radford": 54.8,
+   "parameter_advantage_x": 18
+  }
+ },
+ "table_7_coqa": {
+  "caption": "Results on CoQA under the GPT-2 paper prompt. The left block scores the 1,814 questions whose gold answer has >=5 ModernBERT tokens; the right block scores all 7,983 CoQA development turns, including the yes/no/unknown answers. The protocol is identical throughout and identical to Table 1: oracle answer length in each model's own tokenizer, structural-token bans only, greedy decoding, fp32. Calls is the mean number of forward passes per example; for autoregressive models it equals the oracle token budget B. Char is the mean character length of the scored answer. Calls and Chars are reported for the >=5 cohort.",
+  "n": {
+   "sub5": 1814,
+   "all7983": 7983
+  },
+  "columns": {
+   "sub5": [
+    "F1",
+    "RL",
+    "RLsum",
+    "calls",
+    "chars"
+   ],
+   "all7983": [
+    "F1",
+    "RL",
+    "RLsum"
+   ]
+  },
+  "blocks": {
+   "oneshot": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "sub5": [
+      28.0,
+      31.45,
+      31.46,
+      1.0,
+      21
+     ],
+     "all7983": [
+      47.46,
+      49.29,
+      49.29
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "sub5": [
+      39.54,
+      42.92,
+      42.93,
+      1.0,
+      21
+     ],
+     "all7983": [
+      58.42,
+      60.17,
+      60.17
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "sub5": [
+      43.87,
+      46.22,
+      46.24,
+      1.0,
+      21
+     ],
+     "all7983": [
+      66.0,
+      66.83,
+      66.83
+     ]
+    }
+   },
+   "autoregressive": {
+    "gpt2_small": {
+     "name": "GPT-2 Small",
+     "size": "124M",
+     "sub5": [
+      21.2,
+      24.5,
+      24.55,
+      7.4,
+      24
+     ],
+     "all7983": [
+      26.03,
+      28.64,
+      28.65
+     ]
+    },
+    "smollm2_135m": {
+     "name": "SmolLM2-135M",
+     "size": "135M",
+     "sub5": [
+      32.59,
+      34.92,
+      34.95,
+      7.6,
+      25
+     ],
+     "all7983": [
+      40.88,
+      42.66,
+      42.67
+     ]
+    },
+    "pythia_160m": {
+     "name": "Pythia-160M",
+     "size": "160M",
+     "sub5": [
+      15.15,
+      18.87,
+      18.89,
+      7.5,
+      24
+     ],
+     "all7983": [
+      19.33,
+      22.18,
+      22.18
+     ]
+    },
+    "opt_350m": {
+     "name": "OPT-350M",
+     "size": "331M",
+     "sub5": [
+      27.16,
+      29.86,
+      29.94,
+      7.4,
+      25
+     ],
+     "all7983": [
+      31.52,
+      33.69,
+      33.71
+     ]
+    },
+    "gpt2_medium": {
+     "name": "GPT-2 Medium",
+     "size": "355M",
+     "sub5": [
+      36.84,
+      38.46,
+      38.56,
+      7.4,
+      25
+     ],
+     "all7983": [
+      42.62,
+      44.24,
+      44.26
+     ]
+    },
+    "smollm2_360m": {
+     "name": "SmolLM2-360M",
+     "size": "362M",
+     "sub5": [
+      52.77,
+      54.3,
+      54.32,
+      7.6,
+      27
+     ],
+     "all7983": [
+      59.77,
+      61.06,
+      61.06
+     ]
+    },
+    "pythia_410m": {
+     "name": "Pythia-410M",
+     "size": "410M",
+     "sub5": [
+      34.34,
+      36.41,
+      36.47,
+      7.5,
+      25
+     ],
+     "all7983": [
+      42.01,
+      43.63,
+      43.65
+     ]
+    },
+    "qwen25_0p5b": {
+     "name": "Qwen2.5",
+     "size": "0.5B",
+     "sub5": [
+      58.35,
+      59.47,
+      59.55,
+      7.5,
+      29
+     ],
+     "all7983": [
+      62.63,
+      63.76,
+      63.78
+     ]
+    },
+    "gpt2_large": {
+     "name": "GPT-2 Large",
+     "size": "774M",
+     "sub5": [
+      42.61,
+      44.31,
+      44.38,
+      7.4,
+      26
+     ],
+     "all7983": [
+      48.79,
+      50.26,
+      50.27
+     ]
+    },
+    "gpt2_xl": {
+     "name": "GPT-2 XL",
+     "size": "1.5B",
+     "sub5": [
+      46.83,
+      48.26,
+      48.35,
+      7.4,
+      26
+     ],
+     "all7983": [
+      53.77,
+      55.12,
+      55.15
+     ]
+    },
+    "bloom_3b": {
+     "name": "BLOOM-3B",
+     "size": "3B",
+     "sub5": [
+      56.69,
+      56.25,
+      56.62,
+      7.3,
+      29
+     ],
+     "all7983": [
+      60.07,
+      60.68,
+      60.81
+     ]
+    },
+    "danube3_4b": {
+     "name": "Danube3-4B",
+     "size": "4B",
+     "sub5": [
+      59.4,
+      60.29,
+      60.35,
+      8.2,
+      28
+     ],
+     "all7983": [
+      62.45,
+      63.59,
+      63.61
+     ]
+    },
+    "pythia_69b": {
+     "name": "Pythia",
+     "size": "6.9B",
+     "sub5": [
+      59.57,
+      60.56,
+      60.64,
+      7.5,
+      27
+     ],
+     "all7983": [
+      65.97,
+      66.94,
+      66.96
+     ]
+    },
+    "olmo_17_7b": {
+     "name": "OLMo-1.7",
+     "size": "7B",
+     "sub5": [
+      51.44,
+      53.53,
+      53.57,
+      7.5,
+      24
+     ],
+     "all7983": [
+      42.79,
+      45.02,
+      45.03
+     ]
+    }
+   },
+   "nash": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "sub5": [
+      41.35,
+      44.02,
+      44.04,
+      47.9,
+      28
+     ],
+     "all7983": [
+      53.74,
+      54.86,
+      54.87
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "sub5": [
+      58.12,
+      58.71,
+      58.71,
+      47.7,
+      29
+     ],
+     "all7983": [
+      67.04,
+      67.52,
+      67.52
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "sub5": [
+      61.79,
+      61.98,
+      62.03,
+      47.5,
+      28
+     ],
+     "all7983": [
+      72.76,
+      72.91,
+      72.92
+     ]
+    }
+   }
+  },
+  "prose": {
+   "yes_no_unknown_answers_in_full_dev": 1538
+  }
+ },
+ "table_8_pubmedqa": {
+  "caption": "Full results on PubMedQA.",
+  "n": 500,
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum",
+   "calls",
+   "chars"
+  ],
+  "blocks": {
+   "oneshot": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "v": [
+      7.99,
+      8.21,
+      8.74,
+      1.0,
+      176
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "v": [
+      5.93,
+      7.95,
+      8.34,
+      1.0,
+      93
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "v": [
+      4.03,
+      4.55,
+      4.76,
+      1.0,
+      63
+     ]
+    }
+   },
+   "autoregressive": {
+    "smollm2_135m": {
+     "name": "SmolLM2-135M",
+     "size": "135M",
+     "v": [
+      22.45,
+      20.23,
+      20.93,
+      48.8,
+      236
+     ]
+    },
+    "pythia_160m": {
+     "name": "Pythia-160M",
+     "size": "160M",
+     "v": [
+      17.09,
+      16.77,
+      17.14,
+      48.3,
+      216
+     ]
+    },
+    "opt_350m": {
+     "name": "OPT-350M",
+     "size": "331M",
+     "v": [
+      23.43,
+      20.43,
+      21.41,
+      50.2,
+      240
+     ]
+    },
+    "smollm2_360m": {
+     "name": "SmolLM2-360M",
+     "size": "362M",
+     "v": [
+      21.56,
+      19.71,
+      20.57,
+      48.8,
+      222
+     ]
+    },
+    "gpt2_large": {
+     "name": "GPT-2 Large",
+     "size": "774M",
+     "v": [
+      22.09,
+      19.85,
+      20.84,
+      50.2,
+      228
+     ]
+    },
+    "gpt2_xl": {
+     "name": "GPT-2 XL",
+     "size": "1.5B",
+     "v": [
+      23.78,
+      20.77,
+      22.0,
+      50.2,
+      231
+     ]
+    },
+    "bloom_3b": {
+     "name": "BLOOM-3B",
+     "size": "3B",
+     "v": [
+      22.6,
+      19.53,
+      21.46,
+      50.1,
+      257
+     ]
+    },
+    "danube3_4b": {
+     "name": "Danube3-4B",
+     "size": "4B",
+     "v": [
+      12.71,
+      12.57,
+      14.49,
+      56.2,
+      222
+     ]
+    },
+    "pythia_69b": {
+     "name": "Pythia",
+     "size": "6.9B",
+     "v": [
+      22.06,
+      18.8,
+      20.96,
+      48.3,
+      224
+     ]
+    },
+    "olmo_17_7b": {
+     "name": "OLMo-1.7",
+     "size": "7B",
+     "v": [
+      19.67,
+      17.71,
+      20.09,
+      48.3,
+      228
+     ]
+    },
+    "llama1_7b": {
+     "name": "Llama 1",
+     "size": "7B",
+     "v": [
+      23.67,
+      20.21,
+      22.53,
+      59.2,
+      255
+     ]
+    },
+    "openllama_7b": {
+     "name": "OpenLLaMA",
+     "size": "7B",
+     "v": [
+      24.03,
+      20.74,
+      22.54,
+      52.1,
+      234
+     ]
+    },
+    "amber_7b": {
+     "name": "Amber",
+     "size": "7B",
+     "v": [
+      23.43,
+      20.4,
+      21.95,
+      59.2,
+      239
+     ]
+    },
+    "granite_7b": {
+     "name": "Granite",
+     "size": "7B",
+     "v": [
+      19.13,
+      17.53,
+      18.67,
+      59.2,
+      244
+     ]
+    },
+    "mistral_7b": {
+     "name": "Mistral v0.1",
+     "size": "7.2B",
+     "v": [
+      17.13,
+      14.31,
+      16.4,
+      56.2,
+      177
+     ]
+    },
+    "mistral_7b_v03": {
+     "name": "Mistral v0.3",
+     "size": "7.2B",
+     "v": [
+      17.32,
+      14.42,
+      16.3,
+      56.2,
+      167
+     ]
+    },
+    "falcon_7b": {
+     "name": "Falcon",
+     "size": "7.2B",
+     "v": [
+      22.31,
+      19.18,
+      21.35,
+      49.3,
+      234
+     ]
+    },
+    "llama31_8b": {
+     "name": "Llama 3.1",
+     "size": "8B",
+     "v": [
+      23.3,
+      19.49,
+      21.97,
+      49.4,
+      239
+     ]
+    }
+   },
+   "nash": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "v": [
+      24.99,
+      21.17,
+      22.69,
+      1716,
+      247
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "v": [
+      22.77,
+      20.05,
+      21.65,
+      1548,
+      221
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "v": [
+      24.28,
+      20.33,
+      21.36,
+      1520,
+      206
+     ]
+    }
+   }
+  }
+ },
+ "table_9_clapnq": {
+  "caption": "Full results on CLAPNQ.",
+  "n": 300,
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum",
+   "calls",
+   "chars"
+  ],
+  "blocks": {
+   "oneshot": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "v": [
+      5.94,
+      10.38,
+      10.59,
+      1.0,
+      195
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "v": [
+      7.03,
+      12.05,
+      12.66,
+      1.0,
+      142
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "v": [
+      6.97,
+      11.78,
+      12.41,
+      1.0,
+      117
+     ]
+    }
+   },
+   "autoregressive": {
+    "gpt2_small": {
+     "name": "GPT-2 Small",
+     "size": "124M",
+     "v": [
+      29.31,
+      29.34,
+      29.3,
+      63.1,
+      282
+     ]
+    },
+    "smollm2_135m": {
+     "name": "SmolLM2-135M",
+     "size": "135M",
+     "v": [
+      30.26,
+      28.92,
+      30.46,
+      66.0,
+      284
+     ]
+    },
+    "pythia_160m": {
+     "name": "Pythia-160M",
+     "size": "160M",
+     "v": [
+      26.46,
+      27.53,
+      27.28,
+      63.8,
+      279
+     ]
+    },
+    "opt_350m": {
+     "name": "OPT-350M",
+     "size": "331M",
+     "v": [
+      33.21,
+      32.14,
+      33.39,
+      63.1,
+      281
+     ]
+    },
+    "gpt2_medium": {
+     "name": "GPT-2 Medium",
+     "size": "355M",
+     "v": [
+      32.56,
+      31.23,
+      32.74,
+      63.1,
+      292
+     ]
+    },
+    "smollm2_360m": {
+     "name": "SmolLM2-360M",
+     "size": "362M",
+     "v": [
+      32.62,
+      31.02,
+      32.66,
+      66.0,
+      290
+     ]
+    },
+    "pythia_410m": {
+     "name": "Pythia-410M",
+     "size": "410M",
+     "v": [
+      31.29,
+      30.55,
+      31.52,
+      63.8,
+      276
+     ]
+    },
+    "gpt2_large": {
+     "name": "GPT-2 Large",
+     "size": "774M",
+     "v": [
+      33.06,
+      31.5,
+      33.68,
+      63.1,
+      288
+     ]
+    },
+    "gpt2_xl": {
+     "name": "GPT-2 XL",
+     "size": "1.5B",
+     "v": [
+      30.58,
+      29.51,
+      30.73,
+      63.1,
+      289
+     ]
+    },
+    "bloom_3b": {
+     "name": "BLOOM-3B",
+     "size": "3B",
+     "v": [
+      34.0,
+      32.18,
+      34.31,
+      63.3,
+      292
+     ]
+    },
+    "olmo_17_7b": {
+     "name": "OLMo-1.7",
+     "size": "7B",
+     "v": [
+      30.12,
+      28.63,
+      32.15,
+      63.8,
+      279
+     ]
+    },
+    "llama1_7b": {
+     "name": "Llama 1",
+     "size": "7B",
+     "v": [
+      37.04,
+      35.01,
+      37.12,
+      73.8,
+      300
+     ]
+    },
+    "amber_7b": {
+     "name": "Amber",
+     "size": "7B",
+     "v": [
+      35.34,
+      33.15,
+      35.61,
+      73.8,
+      311
+     ]
+    },
+    "mistral_7b": {
+     "name": "Mistral v0.1",
+     "size": "7.2B",
+     "v": [
+      34.4,
+      32.75,
+      35.2,
+      71.8,
+      293
+     ]
+    },
+    "falcon_7b": {
+     "name": "Falcon",
+     "size": "7.2B",
+     "v": [
+      34.39,
+      32.91,
+      34.5,
+      67.4,
+      294
+     ]
+    },
+    "olmo2_7b": {
+     "name": "OLMo-2",
+     "size": "7.3B",
+     "v": [
+      35.44,
+      33.26,
+      37.37,
+      64.3,
+      302
+     ]
+    }
+   },
+   "nash": {
+    "roberta_large": {
+     "name": "RoBERTa-Large",
+     "size": "355M",
+     "v": [
+      25.25,
+      25.59,
+      25.17,
+      2913,
+      273
+     ]
+    },
+    "ettin_400m": {
+     "name": "Ettin-400m",
+     "size": "396M",
+     "v": [
+      34.04,
+      31.61,
+      33.84,
+      2935,
+      281
+     ]
+    },
+    "modernbert_large": {
+     "name": "ModernBERT-Large",
+     "size": "395M",
+     "v": [
+      38.04,
+      34.79,
+      37.42,
+      2967,
+      263
+     ]
+    }
+   }
+  }
+ },
+ "table_2_basins_pubmedqa": {
+  "caption": "Nash Equilibria Basins on PubMedQA.",
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum"
+  ],
+  "l2r": {
+   "mmbert_base": {
+    "size": "308M",
+    "v": [
+     4.22,
+     6.11,
+     5.38
+    ]
+   },
+   "roberta_large": {
+    "size": "355M",
+    "v": [
+     22.23,
+     19.79,
+     20.77
+    ]
+   },
+   "modernbert_large": {
+    "size": "395M",
+    "v": [
+     21.91,
+     19.88,
+     19.99
+    ]
+   },
+   "ettin_400m": {
+    "size": "396M",
+    "v": [
+     17.41,
+     17.29,
+     17.36
+    ]
+   }
+  },
+  "all_mask": {
+   "mmbert_base": {
+    "size": "308M",
+    "v": [
+     3.89,
+     5.3,
+     4.59
+    ]
+   },
+   "roberta_large": {
+    "size": "355M",
+    "v": [
+     24.99,
+     21.17,
+     22.69
+    ]
+   },
+   "modernbert_large": {
+    "size": "395M",
+    "v": [
+     24.28,
+     20.33,
+     21.36
+    ]
+   },
+   "ettin_400m": {
+    "size": "396M",
+    "v": [
+     22.77,
+     20.05,
+     21.65
+    ]
+   }
+  }
+ },
+ "table_3_coordinate_rules": {
+  "caption": "Nash decoding versus single-token masked-diffusion decoding using the same masked model. All rows use the instruction-tuned ModernBERT-chat with its corresponding prompt; details in Appendix H.",
+  "checkpoint": "dllm-hub/ModernBERT-Large-chat-v0.1",
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum"
+  ],
+  "n": {
+   "coqa": 1814,
+   "pubmedqa": 500,
+   "clapnq": 300
+  },
+  "rules": {
+   "uniform": {
+    "coqa": [
+     38.65,
+     40.05,
+     40.08
+    ],
+    "pubmedqa": [
+     30.5,
+     23.51,
+     27.14
+    ],
+    "clapnq": [
+     56.15,
+     50.08,
+     55.0
+    ]
+   },
+   "confidence": {
+    "coqa": [
+     41.85,
+     42.21,
+     42.28
+    ],
+    "pubmedqa": [
+     31.74,
+     24.64,
+     28.5
+    ],
+    "clapnq": [
+     58.84,
+     54.3,
+     58.11
+    ]
+   },
+   "nash_gap": {
+    "coqa": [
+     43.07,
+     43.22,
+     43.31
+    ],
+    "pubmedqa": [
+     32.11,
+     24.8,
+     28.75
+    ],
+    "clapnq": [
+     59.16,
+     54.67,
+     58.37
+    ]
+   }
+  },
+  "paired_margin_vs_confidence_f1": {
+   "coqa": {
+    "delta": 1.23,
+    "ci": [
+     0.61,
+     1.82
+    ],
+    "p": 0.0
+   },
+   "pubmedqa": {
+    "delta": 0.37,
+    "ci": [
+     0.09,
+     0.68
+    ],
+    "p": 0.008
+   },
+   "clapnq": {
+    "delta": 0.32,
+    "ci": [
+     -0.39,
+     1.03
+    ],
+    "p": 0.386
+   }
+  },
+  "dev_test_split": null,
+  "action_set_size": 50352,
+  "appendix_h_prose": {
+   "special_ids_removed": 4,
+   "further_tokens_removed": 11,
+   "examples_checked": 2614,
+   "longest_prompt_plus_canvas_tokens": 1288,
+   "checkpoint_context_tokens": 8192,
+   "update_cap": "max(64, 10T)",
+   "mean_budget_tokens": {
+    "coqa": 7.5,
+    "pubmedqa": 48.3,
+    "clapnq": 63.8
+   },
+   "cost_multiplier_vs_diffusion": {
+    "coqa": 6.6,
+    "pubmedqa": 33,
+    "clapnq": 48
+   }
+  }
+ },
+ "table_11_coordinate_cost": {
+  "caption": "Cost and convergence of the three coordinate rules. Calls is the mean number of forward passes per example. The diffusion variants always terminate after T commitments.",
+  "rows": {
+   "coqa": {
+    "mean_T": 7.5,
+    "diffusion_calls": 8,
+    "nash_calls": 53
+   },
+   "pubmedqa": {
+    "mean_T": 48.3,
+    "diffusion_calls": 48,
+    "nash_calls": 1604
+   },
+   "clapnq": {
+    "mean_T": 63.8,
+    "diffusion_calls": 64,
+    "nash_calls": 3076
+   }
+  }
+ },
+ "table_10_prompt_ablation": {
+  "caption": "Prompt-format ablation on CLAPNQ.",
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum"
+  ],
+  "rows": [
+   {
+    "system": "falcon_7b",
+    "decoder": "autoregressive",
+    "prompt": "qa",
+    "v": [
+     32.87,
+     29.8,
+     32.61
+    ]
+   },
+   {
+    "system": "falcon_7b",
+    "decoder": "autoregressive",
+    "prompt": "soft",
+    "v": [
+     34.39,
+     32.91,
+     34.5
+    ]
+   },
+   {
+    "system": "modernbert_large",
+    "decoder": "nash",
+    "prompt": "qa",
+    "v": [
+     37.0,
+     33.25,
+     36.39
+    ]
+   },
+   {
+    "system": "modernbert_large",
+    "decoder": "nash",
+    "prompt": "soft",
+    "v": [
+     38.04,
+     34.79,
+     37.42
+    ]
+   }
+  ]
+ },
+ "table_4_wikitext": {
+  "caption": "Refinement on 500 WikiText-103 continuations with ModernBERT-Large, counted from the completed sequence x(1). Construction is a separate max-gap order pass of 64 model calls.",
+  "prompts": 500,
+  "prompt_tokens": 512,
+  "slots": 64,
+  "action_set_size": 50364,
+  "exact_equilibrium": 494,
+  "exact_equilibrium_pct": 98.8,
+  "repeated_state": 6,
+  "repeated_state_pct": 1.2,
+  "already_at_equilibrium": 118,
+  "already_at_equilibrium_pct": 23.6,
+  "updates_mean": 2.6,
+  "updates_median": 2,
+  "updates_max": 36,
+  "total_updates": 1300,
+  "tokens_changed_mean": 2.29,
+  "updates_writing_mask": 0,
+  "calls_construction": 64,
+  "calls_refinement": 230,
+  "seconds_per_text": 3.3,
+  "running_min_gap_k1": 0.342,
+  "running_min_gap_k36": 6.9e-05,
+  "bound_median_slack": 71,
+  "mean_two_log_inv_p0": 21.4,
+  "theorem_part1_holds_pct": 71.5,
+  "pseudo_likelihood_increases_pct": 75.2,
+  "pseudo_ppl_start": null,
+  "pseudo_ppl_end": null,
+  "gpt2xl_ppl_start": null,
+  "gpt2xl_ppl_end": null,
+  "update_cap": 640,
+  "repeated_state_gap_at_detection_min": 0.017,
+  "repeated_state_gap_at_detection_max": 0.63,
+  "figure_2_axes": {
+   "panel_a_y_ticks": [
+    4,
+    2,
+    0,
+    -2,
+    -4,
+    -6,
+    -8
+   ],
+   "panel_a_x_ticks": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5
+   ],
+   "panel_b_left_ticks_gpt2xl_ppl": [
+    3.54,
+    3.52,
+    3.5,
+    3.48
+   ],
+   "panel_b_right_ticks_pseudo_ppl": [
+    1.18,
+    1.16,
+    1.14,
+    1.12
+   ],
+   "panel_b_x_ticks": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5
+   ]
+  }
+ },
+ "table_5_dataset_scale": {
+  "caption": "Scale and length of the evaluated subsets.",
+  "column_order_printed": [
+   "clapnq",
+   "pubmedqa",
+   "coqa"
+  ],
+  "clapnq": {
+   "split": "dev, answerable",
+   "questions": 300,
+   "distinct_contexts": 297,
+   "references_per_question": 1.62,
+   "context_tokens": 195.3,
+   "context_words": 170.8,
+   "question_tokens": 10.4,
+   "question_words": 9.1,
+   "history_tokens": null,
+   "prompt_tokens": 222.7,
+   "answer_tokens": 63.8,
+   "answer_words": 51.7,
+   "answer_median": 56,
+   "answer_p90": 107,
+   "answer_max": 231,
+   "answer_gpt2_tokens": 63.1,
+   "sentences_per_answer": 2.26
+  },
+  "pubmedqa": {
+   "split": "PQA-L test (seed 0)",
+   "questions": 500,
+   "distinct_contexts": 500,
+   "references_per_question": 1,
+   "context_tokens": 287.0,
+   "context_words": 202.3,
+   "question_tokens": 17.8,
+   "question_words": 13.1,
+   "history_tokens": null,
+   "prompt_tokens": 319.7,
+   "answer_tokens": 48.3,
+   "answer_words": 39.1,
+   "answer_median": 45,
+   "answer_p90": 77,
+   "answer_max": 154,
+   "answer_gpt2_tokens": 50.2,
+   "sentences_per_answer": 1.91
+  },
+  "coqa": {
+   "split": "dev, gold >= 5 tok.",
+   "questions": 1814,
+   "distinct_contexts": 459,
+   "conversations": 460,
+   "references_per_question": 4,
+   "distinct_references": 2.36,
+   "context_tokens": 355.2,
+   "context_words": 267.0,
+   "question_tokens": 6.6,
+   "question_words": 5.3,
+   "history_tokens": 140.7,
+   "prompt_tokens": 495.9,
+   "answer_tokens": 7.5,
+   "answer_words": 5.6,
+   "answer_median": 7,
+   "answer_p90": 11,
+   "answer_max": 40,
+   "answer_gpt2_tokens": 7.4,
+   "sentences_per_answer": 1.01
+  }
+ },
+ "table_6_lexical_overlap": {
+  "caption": "Lexical overlap and arrangement of passage material.",
+  "column_order_printed": [
+   "clapnq",
+   "pubmedqa",
+   "coqa"
+  ],
+  "clapnq": {
+   "gold_tokens_in_context": 97.6,
+   "gold_content_words_in_context": 97.4,
+   "novel_bigrams": 10.9,
+   "answers_below_half_overlap": 0.3,
+   "contiguous_span": 4.0,
+   "longest_run_ratio": 53.7,
+   "sentences_selected": 2.5,
+   "answers_ge2_sentences": 89.3,
+   "answers_ge3_sentences": 37.3,
+   "first_last_distance": 3.47,
+   "copy_full_context_f1": 50.7,
+   "copy_best_sentence_f1": 67.6
+  },
+  "pubmedqa": {
+   "gold_tokens_in_context": 60.0,
+   "gold_content_words_in_context": 49.3,
+   "novel_bigrams": 76.8,
+   "answers_below_half_overlap": 52.0,
+   "contiguous_span": 0.0,
+   "longest_run_ratio": 12.8,
+   "sentences_selected": 3.39,
+   "answers_ge2_sentences": 95.0,
+   "answers_ge3_sentences": 72.6,
+   "first_last_distance": 6.19,
+   "copy_full_context_f1": 18.4,
+   "copy_best_sentence_f1": 34.7,
+   "question_tokens_in_context": 70.9
+  },
+  "coqa": {
+   "gold_tokens_in_context": 99.1,
+   "gold_content_words_in_context": 98.9,
+   "novel_bigrams": 6.5,
+   "answers_below_half_overlap": 0.6,
+   "contiguous_span": 79.8,
+   "longest_run_ratio": 91.9,
+   "sentences_selected": 1.01,
+   "answers_ge2_sentences": 2.4,
+   "answers_ge3_sentences": 0.3,
+   "first_last_distance": 0.06,
+   "copy_full_context_f1": 4.9,
+   "copy_best_sentence_f1": 45.0
+  },
+  "prose_derived": {
+   "coqa_at_most_one_sentence_pct": 97.6,
+   "coqa_answer_tokens_absent_pct": 0.9,
+   "coqa_passage_tokens_approx": 355,
+   "coqa_answer_tokens_approx": 7.5,
+   "clapnq_contiguous_span_pct_rounded": 4,
+   "sentence_coverage_target_pct": 90
+  }
+ },
+ "figure_3_5_dynamics": {
+  "caption": "Answer F1 and Nash gap against update index k, ModernBERT-Large, all-mask.",
+  "final_f1": {
+   "coqa": 58.12,
+   "pubmedqa": 24.28,
+   "clapnq": 38.04
+  },
+  "axis_gap_ticks": {
+   "coqa": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+   ],
+   "pubmedqa": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+   ],
+   "clapnq": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+   ]
+  },
+  "axis_f1_ticks": {
+   "coqa": [
+    0,
+    15,
+    30,
+    45,
+    60
+   ],
+   "pubmedqa": [
+    0,
+    10,
+    20,
+    30,
+    40
+   ],
+   "clapnq": [
+    0,
+    10,
+    20,
+    30,
+    40
+   ]
+  },
+  "axis_k_ticks": {
+   "coqa": [
+    0,
+    10,
+    20,
+    30,
+    40
+   ],
+   "pubmedqa": [
+    0,
+    50,
+    100,
+    150
+   ],
+   "clapnq": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ]
+  },
+  "figure_3_clapnq_only": {
+   "final_f1": 38.04,
+   "axis_gap_ticks": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+   ],
+   "axis_f1_ticks": [
+    0,
+    10,
+    20,
+    30,
+    40
+   ],
+   "axis_k_ticks": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ]
+  },
+  "mean_gap_start": {
+   "coqa": 0.58,
+   "pubmedqa": 0.59,
+   "clapnq": 0.45
+  },
+  "mean_gap_peak": {
+   "coqa": 0.64,
+   "pubmedqa": 0.81,
+   "clapnq": 0.76
+  },
+  "peak_k": {
+   "coqa": 3,
+   "pubmedqa": 10,
+   "clapnq": 21
+  },
+  "peak_increase_pct": {
+   "coqa": 11,
+   "pubmedqa": 36,
+   "clapnq": 71
+  },
+  "filled_fraction_at_peak_pct": {
+   "coqa": 45,
+   "pubmedqa": 25,
+   "clapnq": 42
+  },
+  "converged": {
+   "coqa": 1808,
+   "pubmedqa": 500,
+   "clapnq": 300
+  },
+  "limit_cycles": {
+   "coqa": 6,
+   "pubmedqa": 0,
+   "clapnq": 0
+  },
+  "f1_within_1pct_at_k": {
+   "coqa": 11,
+   "pubmedqa": 55,
+   "clapnq": 76
+  },
+  "trajectory_extent": {
+   "coqa": 50,
+   "pubmedqa": 175,
+   "clapnq": 250
+  },
+  "revision_share_pct": {
+   "coqa": 4.3,
+   "pubmedqa": 2.5,
+   "clapnq": 4.4
+  },
+  "clapnq_final_updates_pct": 16,
+  "clapnq_revisions_in_final_updates_pct": 37,
+  "final_mean_gap_below": 0.0001,
+  "qualitative_example_f1": 98.5,
+  "qualitative_example_canvas_slots": 48
+ },
+ "figure_4_6_cost": {
+  "caption": "Wall-clock seconds and model calls per question, one B200, float32, TF32 disabled.",
+  "systems": [
+   "nash_all_mask",
+   "nash_l2r",
+   "falcon_7b",
+   "gpt2_large",
+   "opt_350m"
+  ],
+  "system_sizes_printed": [
+   "395M",
+   "395M",
+   "7.2B",
+   "774M",
+   "331M"
+  ],
+  "coqa": {
+   "seconds": [
+    0.49,
+    0.21,
+    0.26,
+    0.07,
+    0.04
+   ],
+   "calls": [
+    48,
+    20,
+    8,
+    7,
+    7
+   ],
+   "nash_before_canvas_full": {
+    "seconds": 0.41,
+    "calls": 38
+   },
+   "nash_after_canvas_full_calls": 9,
+   "l2r_calls_before_canvas_full": 8,
+   "l2r_calls_after_canvas_full": 12,
+   "axis_seconds_ticks": [
+    0,
+    0.2,
+    0.4,
+    0.6
+   ],
+   "axis_calls_ticks": [
+    0,
+    20,
+    40
+   ]
+  },
+  "pubmedqa": {
+   "seconds": [
+    10.5,
+    1.2,
+    0.8,
+    0.3,
+    0.2
+   ],
+   "calls": [
+    1520,
+    150,
+    49,
+    50,
+    50
+   ],
+   "nash_before_canvas_full": {
+    "seconds": 10.0,
+    "calls": 1451
+   },
+   "axis_seconds_ticks": [
+    0,
+    5,
+    10
+   ],
+   "axis_calls_ticks": [
+    0,
+    1000
+   ]
+  },
+  "clapnq": {
+   "seconds": [
+    17.4,
+    1.7,
+    1.1,
+    0.4,
+    0.3
+   ],
+   "calls": [
+    2710,
+    249,
+    64,
+    60,
+    60
+   ],
+   "note": "measured on a fixed 60-item subsample, every fifth item",
+   "nash_before_canvas_full": {
+    "seconds": 16.5,
+    "calls": 2554
+   },
+   "axis_seconds_ticks": [
+    0,
+    10,
+    20
+   ],
+   "axis_calls_ticks": [
+    0,
+    1000,
+    2000,
+    3000
+   ],
+   "subsample_size": 60,
+   "subsample_mean_gold_answer_words": 49.0,
+   "full_set_mean_gold_answer_words": 51.7,
+   "subsample_l2r_calls": 249,
+   "full_set_l2r_calls": 248,
+   "full_set_size": 300
+  },
+  "_comment": "The split the figure draws is at the update that fills the last [MASK]: the light segment is construction (before), the dark segment refinement (after).",
+  "appendix_i_prose": {
+   "_comment": "The same quantities as Appendix I states them in prose.",
+   "datasets": [
+    "coqa",
+    "pubmedqa",
+    "clapnq"
+   ],
+   "nash_seconds": [
+    0.49,
+    10.5,
+    17.4
+   ],
+   "nash_calls": [
+    48,
+    1520,
+    2710
+   ],
+   "ar_7_2b_seconds": [
+    0.26,
+    0.8,
+    1.1
+   ],
+   "l2r_calls": [
+    20,
+    150,
+    249
+   ],
+   "all_mask_calls": [
+    48,
+    1520,
+    2710
+   ],
+   "l2r_reduction_x": [
+    2.4,
+    10.1,
+    10.9
+   ],
+   "l2r_f1": [
+    56.93,
+    21.91,
+    36.12
+   ],
+   "all_mask_f1": [
+    58.12,
+    24.28,
+    38.04
+   ],
+   "f1_differences": [
+    1.2,
+    2.4,
+    1.9
+   ]
+  }
+ },
+ "appendix_a_motivating_example": {
+  "model": "gpt2",
+  "model_params": "124M",
+  "vocabulary": 50257,
+  "halt_gap_below": 1e-09,
+  "section_1_ratio": 1.26,
+  "example_1": {
+   "prompt": "What famous city is the capital of Spain?",
+   "greedy": "The city of Barcelona is the capital of Spain.",
+   "equilibrium": "The city of Madrid is the capital of Spain.",
+   "player": 4,
+   "n_players": 10,
+   "left_context_preference_factor": 1.15,
+   "ar_conditionals": {
+    "Madrid": 0.0904,
+    "Barcelona": 0.1036,
+    "Valencia": 0.0519,
+    "Spain": 0.016,
+    "Catalonia": 0.0116
+   },
+   "full_context_conditionals": {
+    "Madrid": 0.3343,
+    "Barcelona": 0.2655,
+    "Valencia": 0.1507,
+    "Spain": 0.0666,
+    "Catalonia": 0.0305
+   },
+   "gap": 0.0688,
+   "logprob_before": -20.2943,
+   "logprob_after": -20.0639,
+   "ratio": 1.2591
+  },
+  "example_2": {
+   "prompt": "What city is the political capital of Spain?",
+   "greedy": "The answer is Barcelona. The city is the capital of Spain. It is the capital of Spain.",
+   "after_first": "The answer is Madrid. The city is the capital of Spain. It is the capital of Spain.",
+   "equilibrium": "The answer is Madrid. The city is the capital of Spain. Madrid is the capital of Spain.",
+   "n_players": 20,
+   "scan_1": {
+    "4": {
+     "token": "Barcelona",
+     "p": 0.3039,
+     "best": "Madrid",
+     "p_best": 0.3978,
+     "gap": 0.0938
+    },
+    "14": {
+     "token": "It",
+     "p": 0.2709,
+     "best": "Madrid",
+     "p_best": 0.3144,
+     "gap": 0.0435
+    }
+   },
+   "scan_2": {
+    "14": {
+     "p": 0.316,
+     "p_best": 0.4132,
+     "gap": 0.0972
+    }
+   },
+   "G_x_first_scan": 0.0938,
+   "logprobs": [
+    -25.8889,
+    -25.6198,
+    -25.3516
+   ],
+   "ratios": [
+    1.309,
+    1.308,
+    1.711
+   ]
+  }
+ },
+ "lemma_1_separation": {
+  "block_p1": [
+   0.51,
+   0.49
+  ],
+  "block_p2_given_0": 0.51,
+  "block_p2_given_1": 0.99,
+  "greedy_block": [
+   0,
+   1
+  ],
+  "nash_block": [
+   1,
+   1
+  ],
+  "p_greedy_block": 0.2601,
+  "p_nash_block": 0.4851,
+  "gap_lower_bound": 0.30193236714975846,
+  "gap_exact_fraction": [
+   125,
+   414
+  ],
+  "gap_stated_bound": 0.3,
+  "gamma": 0.31164,
+  "ratio_per_block": [
+   539,
+   289
+  ]
+ },
+ "appendix_e_prose": {
+  "caption": "Appendix E prose numbers.",
+  "e2_mean_budget_range_tokens": {
+   "coqa": [
+    7.3,
+    8.5
+   ],
+   "pubmedqa": [
+    47.6,
+    59.2
+   ],
+   "clapnq": [
+    63.1,
+    73.9
+   ]
+  },
+  "e4_tf32_check_matrix_dim": 2048,
+  "e4_relative_error_below": 1e-05,
+  "e5_context_limit_tokens": 1024,
+  "e5_margin_tokens": 1,
+  "e5_coqa_truncation_pct_range": [
+   0.4,
+   1.1
+  ],
+  "e5_roberta_position_embeddings": 514,
+  "e5_roberta_effective_limit": 512,
+  "e6_gap_tolerance": 0,
+  "e6_update_cap_floor": 64,
+  "e6_update_cap_per_slot": 10,
+  "f_intro_backbone_param_range": "308-396M",
+  "f_intro_parameter_advantage_x": 18,
+  "stopping_threshold_in_prose": 0.0001
+ },
+ "appendix_e7_metrics": {
+  "caption": "Appendix E.7: the official CoQA accumulation against best-reference F1.",
+  "official_loo_below_best_reference_min": 0.4,
+  "official_loo_below_best_reference_max": 1.6,
+  "preserves_system_ordering": true,
+  "references_per_question": {
+   "coqa": 4,
+   "clapnq": "one, two, or seven",
+   "pubmedqa": 1
+  }
+ },
+ "appendix_g1_prose": {
+  "caption": "Appendix G.1, stated in prose rather than in a table.",
+  "still_active_at_f1_convergence_pct": {
+   "coqa": 16,
+   "pubmedqa": 35,
+   "clapnq": 32
+  },
+  "revision_share_pct": {
+   "coqa": 4.3,
+   "pubmedqa": 2.5,
+   "clapnq": 4.4
+  },
+  "f1_change_over_second_half_max": 0.1,
+  "clapnq_final_updates_pct": 16,
+  "clapnq_revisions_in_final_updates_pct": 37,
+  "converged": {
+   "coqa": 1808,
+   "pubmedqa": 500,
+   "clapnq": 300
+  },
+  "coqa_cohort": 1814,
+  "limit_cycles_coqa": 6
+ },
+ "appendix_g2_examples": {
+  "caption": "Appendix G.2: the ten CLAPNQ generations, by printed F1.",
+  "printed_f1": [
+   98.5,
+   83.3,
+   70.1,
+   66.7,
+   60.1,
+   51.2,
+   48.0,
+   42.9,
+   39.0,
+   23.1
+  ],
+  "daggered_examples": [
+   1
+  ],
+  "selection_rule": "The example discussed in Section 4.2 is marked with a dagger; the remaining nine are taken one at each evenly spaced percentile of the run's F1 distribution, so the list spans the full range rather than a selected part of it."
+ },
+ "appendix_g5_prose": {
+  "caption": "Appendix G.5: how often all-mask construction revises an already-written position before the canvas is complete (ModernBERT-Large).",
+  "interleaving_revisions": {
+   "coqa_trajectories_revising_before_canvas_full": 200,
+   "coqa_total": 1814,
+   "pubmedqa_trajectories_revising_before_canvas_full": 276,
+   "pubmedqa_total": 500
+  }
+ },
+ "extended_basins_all_backbones": {
+  "caption": "Not a table of the paper. Appendix G.4 extends the comparison of Table 2 to every model across the three datasets; these are the repository's values for that extension (six backbones, both constructions, all three datasets). Table 2 is the PubMedQA column of the four largest backbones.",
+  "columns": [
+   "F1",
+   "RL",
+   "RLsum"
+  ],
+  "datasets": [
+   "coqa",
+   "pubmedqa",
+   "clapnq"
+  ],
+  "n": {
+   "coqa": 1814,
+   "pubmedqa": 500,
+   "clapnq": 300
+  },
+  "l2r": {
+   "modernbert_base": {
+    "size": "149M",
+    "coqa": [
+     24.97,
+     28.44,
+     28.39
+    ],
+    "pubmedqa": [
+     10.88,
+     12.25,
+     11.46
+    ],
+    "clapnq": [
+     20.07,
+     22.69,
+     21.38
+    ]
+   },
+   "ettin_150m": {
+    "size": "150M",
+    "coqa": [
+     21.74,
+     24.95,
+     24.97
+    ],
+    "pubmedqa": [
+     13.28,
+     14.63,
+     13.9
+    ],
+    "clapnq": [
+     22.54,
+     23.99,
+     23.65
+    ]
+   },
+   "mmbert_base": {
+    "size": "308M",
+    "coqa": [
+     42.22,
+     43.18,
+     43.25
+    ],
+    "pubmedqa": [
+     4.22,
+     6.11,
+     5.38
+    ],
+    "clapnq": [
+     9.59,
+     10.01,
+     9.63
+    ]
+   },
+   "roberta_large": {
+    "size": "355M",
+    "coqa": [
+     41.84,
+     44.19,
+     44.24
+    ],
+    "pubmedqa": [
+     22.23,
+     19.79,
+     20.77
+    ],
+    "clapnq": [
+     22.86,
+     23.65,
+     23.04
+    ]
+   },
+   "modernbert_large": {
+    "size": "395M",
+    "coqa": [
+     56.93,
+     57.38,
+     57.41
+    ],
+    "pubmedqa": [
+     21.91,
+     19.88,
+     19.99
+    ],
+    "clapnq": [
+     36.12,
+     33.56,
+     36.07
+    ]
+   },
+   "ettin_400m": {
+    "size": "396M",
+    "coqa": [
+     63.65,
+     63.83,
+     63.89
+    ],
+    "pubmedqa": [
+     17.41,
+     17.29,
+     17.36
+    ],
+    "clapnq": [
+     34.68,
+     32.86,
+     34.67
+    ]
+   }
+  },
+  "all_mask": {
+   "modernbert_base": {
+    "size": "149M",
+    "coqa": [
+     27.0,
+     29.84,
+     29.83
+    ],
+    "pubmedqa": [
+     9.16,
+     8.75,
+     8.9
+    ],
+    "clapnq": [
+     17.28,
+     19.7,
+     19.44
+    ]
+   },
+   "ettin_150m": {
+    "size": "150M",
+    "coqa": [
+     21.54,
+     24.1,
+     24.11
+    ],
+    "pubmedqa": [
+     16.56,
+     16.62,
+     15.7
+    ],
+    "clapnq": [
+     23.02,
+     24.56,
+     23.45
+    ]
+   },
+   "mmbert_base": {
+    "size": "308M",
+    "coqa": [
+     40.55,
+     41.48,
+     41.61
+    ],
+    "pubmedqa": [
+     3.89,
+     5.3,
+     4.59
+    ],
+    "clapnq": [
+     9.64,
+     9.59,
+     9.63
+    ]
+   },
+   "roberta_large": {
+    "size": "355M",
+    "coqa": [
+     41.35,
+     44.02,
+     44.04
+    ],
+    "pubmedqa": [
+     24.99,
+     21.17,
+     22.69
+    ],
+    "clapnq": [
+     25.25,
+     25.59,
+     25.17
+    ]
+   },
+   "modernbert_large": {
+    "size": "395M",
+    "coqa": [
+     58.12,
+     58.71,
+     58.71
+    ],
+    "pubmedqa": [
+     24.28,
+     20.33,
+     21.36
+    ],
+    "clapnq": [
+     38.04,
+     34.79,
+     37.42
+    ]
+   },
+   "ettin_400m": {
+    "size": "396M",
+    "coqa": [
+     61.79,
+     61.98,
+     62.03
+    ],
+    "pubmedqa": [
+     22.77,
+     20.05,
+     21.65
+    ],
+    "clapnq": [
+     34.04,
+     31.61,
+     33.84
+    ]
+   }
+  },
+  "printed": false
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "figure_6_b200": {
+  "coqa": {
+   "seconds": [
+    0.49,
+    0.21,
+    0.26,
+    0.07,
+    0.04
+   ],
+   "calls": [
+    48,
+    20,
+    8,
+    7,
+    7
+   ]
+  },
+  "pubmedqa": {
+   "seconds": [
+    10.5,
+    1.2,
+    0.8,
+    0.3,
+    0.2
+   ],
+   "calls": [
+    1520,
+    150,
+    49,
+    50,
+    50
+   ]
+  },
+  "clapnq": {
+   "seconds": [
+    17.4,
+    1.7,
+    1.1,
+    0.4,
+    0.3
+   ],
+   "calls": [
+    2710,
+    249,
+    64,
+    60,
+    60
+   ]
+  }
+ },
+ "recorded": {
+  "coqa": [
+   {
+    "label": "ModernBERT-L, all-mask",
+    "tag": "modernbert_large",
+    "family": "nash_maxgap",
+    "calls": 47.711686879823596,
+    "seconds": 0.4949912006331812,
+    "calls_to_canvas_full": 38.249724366041896,
+    "calls_after_canvas_full": 9.4619625137817
+   },
+   {
+    "label": "ModernBERT-L, L2R",
+    "tag": "modernbert_large",
+    "family": "nash_l2r",
+    "calls": 19.504410143329658,
+    "seconds": 0.21454124951895837,
+    "calls_to_canvas_full": 7.509371554575524,
+    "calls_after_canvas_full": 11.995038588754134
+   },
+   {
+    "label": "Falcon 7.2B",
+    "calls": null,
+    "seconds": null
+   },
+   {
+    "label": "GPT-2 Large 774M",
+    "tag": "gpt2_large",
+    "family": "autoregressive",
+    "calls": 7.361631753031974,
+    "seconds": 0.13479632435111988,
+    "calls_to_canvas_full": null
+   },
+   {
+    "label": "OPT-350M 331M",
+    "tag": "opt_350m",
+    "family": "autoregressive",
+    "calls": 7.361631753031974,
+    "seconds": 0.15349689060837532,
+    "calls_to_canvas_full": null
+   }
+  ],
+  "pubmedqa": [
+   {
+    "label": "ModernBERT-L, all-mask",
+    "tag": "modernbert_large",
+    "family": "nash_maxgap",
+    "calls": 1520.466,
+    "seconds": 10.478289230131894,
+    "calls_to_canvas_full": 1451.208,
+    "calls_after_canvas_full": 69.25799999999981
+   },
+   {
+    "label": "ModernBERT-L, L2R",
+    "tag": "modernbert_large",
+    "family": "nash_l2r",
+    "calls": 150.482,
+    "seconds": 1.2155415871760342,
+    "calls_to_canvas_full": 48.288,
+    "calls_after_canvas_full": 102.194
+   },
+   {
+    "label": "Falcon 7.2B",
+    "tag": "falcon_7b",
+    "family": "autoregressive",
+    "calls": 49.328,
+    "seconds": 0.845662430273369,
+    "calls_to_canvas_full": null
+   },
+   {
+    "label": "GPT-2 Large 774M",
+    "tag": "gpt2_large",
+    "family": "autoregressive",
+    "calls": 50.182,
+    "seconds": 0.33894043141976,
+    "calls_to_canvas_full": null
+   },
+   {
+    "label": "OPT-350M 331M",
+    "tag": "opt_350m",
+    "family": "autoregressive",
+    "calls": 50.182,
+    "seconds": 0.1971429575859802,
+    "calls_to_canvas_full": null
+   }
+  ],
+  "clapnq": [
+   {
+    "label": "ModernBERT-L, all-mask",
+    "tag": "modernbert_large",
+    "family": "nash_maxgap",
+    "calls": 2966.94,
+    "seconds": 18.367119487480572,
+    "calls_to_canvas_full": 2795.9266666666667,
+    "calls_after_canvas_full": 171.01333333333332
+   },
+   {
+    "label": "ModernBERT-L, L2R",
+    "tag": "modernbert_large",
+    "family": "nash_l2r",
+    "calls": 248.36666666666667,
+    "seconds": 3.228306491475669,
+    "calls_to_canvas_full": 63.77,
+    "calls_after_canvas_full": 184.59666666666666
+   },
+   {
+    "label": "Falcon 7.2B",
+    "tag": "falcon_7b",
+    "family": "autoregressive",
+    "calls": 67.41333333333333,
+    "seconds": null,
+    "calls_to_canvas_full": null
+   },
+   {
+    "label": "GPT-2 Large 774M",
+    "tag": "gpt2_large",
+    "family": "autoregressive",
+    "calls": 63.126666666666665,
+    "seconds": null,
+    "calls_to_canvas_full": null
+   },
+   {
+    "label": "OPT-350M 331M",
+    "tag": "opt_350m",
+    "family": "autoregressive",
+    "calls": 63.126666666666665,
+    "seconds": null,
+    "calls_to_canvas_full": null
+   }
+  ]
+ },
+ "timing_files": {
+  "coqa": "timing_coqa_numbers.json",
+  "clapnq": "clapnq_timing_b200.json"
+ },
+ "timing": {
+  "coqa": [
+   {
+    "label": "ModernBERT-L, all-mask",
+    "seconds": 0.49499120063318125,
+    "calls": 47.711686879823596,
+    "seconds_to_full": 0.40867927589315395,
+    "calls_to_full": 38.249724366041896,
+    "n": 1814
+   },
+   {
+    "label": "ModernBERT-L, L2R",
+    "seconds": 0.21454124951895837,
+    "calls": 19.504410143329658,
+    "seconds_to_full": 0.10480135171304537,
+    "calls_to_full": 7.509371554575524,
+    "n": 1814
+   },
+   {
+    "label": "Falcon 7.2B",
+    "seconds": 0.25697909720712303,
+    "calls": 7.557331863285556,
+    "seconds_to_full": null,
+    "calls_to_full": null,
+    "n": 1814
+   },
+   {
+    "label": "GPT-2 Large 774M",
+    "seconds": 0.06622639673586438,
+    "calls": 7.361631753031974,
+    "seconds_to_full": null,
+    "calls_to_full": null,
+    "n": 1814
+   },
+   {
+    "label": "OPT-350M 331M",
+    "seconds": 0.03728294146947754,
+    "calls": 7.361631753031974,
+    "seconds_to_full": null,
+    "calls_to_full": null,
+    "n": 1814
+   }
+  ],
+  "clapnq": [
+   {
+    "label": "ModernBERT-L, all-mask",
+    "seconds": 17.43238013330459,
+    "calls": 2709.6666666666665,
+    "seconds_to_full": 16.473482063257446,
+    "calls_to_full": 2553.95,
+    "n": 60
+   },
+   {
+    "label": "ModernBERT-L, L2R",
+    "seconds": 1.726169739814941,
+    "calls": 248.9,
+    "seconds_to_full": 0.6602724965467739,
+    "calls_to_full": 59.7,
+    "n": 60
+   },
+   {
+    "label": "Falcon 7.2B",
+    "seconds": 1.1259693291814377,
+    "calls": 63.516666666666666,
+    "seconds_to_full": null,
+    "calls_to_full": null,
+    "n": 60
+   },
+   {
+    "label": "GPT-2 Large 774M",
+    "seconds": 0.4360801339537526,
+    "calls": 59.88333333333333,
+    "seconds_to_full": null,
+    "calls_to_full": null,
+    "n": 60
+   },
+   {
+    "label": "OPT-350M 331M",
+    "seconds": 0.2916314224945381,
+    "calls": 59.88333333333333,
+    "seconds_to_full": null,
+    "calls_to_full": null,
+    "n": 60
+   }
+  ]
+ }
+}

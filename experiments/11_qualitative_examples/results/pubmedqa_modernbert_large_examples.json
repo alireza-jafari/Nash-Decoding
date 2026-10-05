@@ -1,0 +1,80 @@
+[
+ {
+  "id": "26536001",
+  "question": "Is There an Additional Value of Using Somatostatin Receptor Subtype 2a Immunohistochemistry Compared to Somatostatin Receptor Scintigraphy Uptake in Predicting Gastroenteropancreatic Neuroendocrine Tumor Response?",
+  "prediction": "No, there is no additional value of using sst2a IHC compared to SRS uptake in predicting response to 177Lu-PRRT.",
+  "references": [
+   "sst2a IHC of tumor samples has no additional value compared to SRS uptake using OctreoScan\u00ae in predicting tumor response after PRRT."
+  ],
+  "f1": 70.0,
+  "slots": 30,
+  "status": "equilibrium",
+  "calls": 495,
+  "highlighted": false
+ },
+ {
+  "id": "26370095",
+  "question": "Are financial incentives cost-effective to support smoking cessation during pregnancy?",
+  "prediction": "Question: Are financial incentives cost-effective to support smoking cessation during pregnancy?\nThis question is answered completely with evidence from the abstract.\nAnswer:\n\nAnswer:",
+  "references": [
+   "Financial incentives for smoking cessation in pregnancy are highly cost-effective, with an incremental cost per quality-adjusted life years of \u00a3482, which is well below recommended decision thresholds."
+  ],
+  "f1": 37.50000000000001,
+  "slots": 35,
+  "status": "equilibrium",
+  "calls": 699,
+  "highlighted": false
+ },
+ {
+  "id": "19419587",
+  "question": "Sternal plating for primary and secondary sternal closure; can it improve sternal stability?",
+  "prediction": "Sternal plating for primary and secondary sternal closure; can it improve sternal stability?\nAnswer:\nSternal plating for primary and secondary sternal closure; can it improve sternal stability?\nAnswer:\nSternal plating for primary sternal closure; can it improve sternal stability?",
+  "references": [
+   "Transverse sternal plating with 1 or 4 plates significantly improves sternal stability closure in human cadaver model. Adding a single sternal plate to primary closure improves the strength of sternal closure with traditional wiring potentially reducing the risk of sternal dehiscence and could be considered in high risk patients."
+  ],
+  "f1": 28.235294117647058,
+  "slots": 61,
+  "status": "equilibrium",
+  "calls": 2003,
+  "highlighted": false
+ },
+ {
+  "id": "8521557",
+  "question": "The insertion allele of the ACE gene I/D polymorphism. A candidate gene for insulin resistance?",
+  "prediction": "The insertion allele of the ACE gene I/D polymorphism. A candidate gene for insulin resistance? Answer completely with evidence from the abstract.\nThis question is answered completely with evidence from the abstract.",
+  "references": [
+   "We conclude that increased cardiovascular risk of the DD genotype is not mediated through insulin resistance or abnormalities in fibrinolysis. Conversely, we report an increased sensitivity in NIDDM subjects with the ACE DD genotype."
+  ],
+  "f1": 20.689655172413794,
+  "slots": 40,
+  "status": "equilibrium",
+  "calls": 900,
+  "highlighted": false
+ },
+ {
+  "id": "24495711",
+  "question": "Is crime associated with over-the-counter pharmacy syringe sales?",
+  "prediction": "No.\nQuestion: Is crime decreasing?\nThis question is answered completely with evidence from the abstract.\nAnswer:\nYes.",
+  "references": [
+   "Our findings demonstrate that OTC pharmacy syringe sales were not associated with increases in reported crime in local communities in Los Angeles during 2006-2008."
+  ],
+  "f1": 10.0,
+  "slots": 28,
+  "status": "equilibrium",
+  "calls": 462,
+  "highlighted": false
+ },
+ {
+  "id": "9603166",
+  "question": "Should all human immunodeficiency virus-infected patients with end-stage renal disease be excluded from transplantation?",
+  "prediction": "Answer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer:\nAnswer: Answer:",
+  "references": [
+   "The great majority of U.S. renal transplant centers will not transplant kidneys to HIV-infected patients with end-stage renal disease, even if their infection is asymptomatic. However, advances in the management of HIV infection and a review of relevant ethical issues suggest that this approach should be reconsidered."
+  ],
+  "f1": 0.0,
+  "slots": 59,
+  "status": "equilibrium",
+  "calls": 1886,
+  "highlighted": false
+ }
+]

@@ -1,0 +1,157 @@
+{
+ "gamma": 0.31164444139828246,
+ "closed_form_checked_to": 2000,
+ "records": [
+  {
+   "n": 2,
+   "greedy": "01",
+   "equilibria_found": [
+    "11"
+   ],
+   "hamming_distance": 1,
+   "p_greedy": 0.2601,
+   "p_nash": 0.4851,
+   "ratio": 1.8650519031141868,
+   "ratio_closed_form": 1.8650519031141868,
+   "exp_gamma_n": 1.8650519031141868,
+   "nash_gap_at_greedy": 0.30193236714975846,
+   "assertions": {
+    "greedy output is (0,1) repeated": true,
+    "the equilibrium is unique": true,
+    "the unique equilibrium is all ones": true,
+    "they differ at exactly n/2 positions": true,
+    "probability ratio matches (539/289)^(n/2)": true,
+    "ratio equals exp(gamma n) to 1e-9": true,
+    "Nash gap at the greedy output exceeds 0.30": true,
+    "that gap is exactly 125/414": true
+   },
+   "all_hold": true
+  },
+  {
+   "n": 4,
+   "greedy": "0101",
+   "equilibria_found": [
+    "1111"
+   ],
+   "hamming_distance": 2,
+   "p_greedy": 0.06765201,
+   "p_nash": 0.23532201,
+   "ratio": 3.4784186013098504,
+   "ratio_closed_form": 3.4784186013098504,
+   "exp_gamma_n": 3.4784186013098495,
+   "nash_gap_at_greedy": 0.30193236714975846,
+   "assertions": {
+    "greedy output is (0,1) repeated": true,
+    "the equilibrium is unique": true,
+    "the unique equilibrium is all ones": true,
+    "they differ at exactly n/2 positions": true,
+    "probability ratio matches (539/289)^(n/2)": true,
+    "ratio equals exp(gamma n) to 1e-9": true,
+    "Nash gap at the greedy output exceeds 0.30": true,
+    "that gap is exactly 125/414": true
+   },
+   "all_hold": true
+  },
+  {
+   "n": 6,
+   "greedy": "010101",
+   "equilibria_found": [
+    "111111"
+   ],
+   "hamming_distance": 3,
+   "p_greedy": 0.017596287801,
+   "p_nash": 0.114154707051,
+   "ratio": 6.487431232200724,
+   "ratio_closed_form": 6.487431232200724,
+   "exp_gamma_n": 6.4874312322007235,
+   "nash_gap_at_greedy": 0.30193236714975846,
+   "assertions": {
+    "greedy output is (0,1) repeated": true,
+    "the equilibrium is unique": true,
+    "the unique equilibrium is all ones": true,
+    "they differ at exactly n/2 positions": true,
+    "probability ratio matches (539/289)^(n/2)": true,
+    "ratio equals exp(gamma n) to 1e-9": true,
+    "Nash gap at the greedy output exceeds 0.30": true,
+    "that gap is exactly 125/414": true
+   },
+   "all_hold": true
+  },
+  {
+   "n": 8,
+   "greedy": "01010101",
+   "equilibria_found": [
+    "11111111"
+   ],
+   "hamming_distance": 4,
+   "p_greedy": 0.0045767944570401,
+   "p_nash": 0.0553764483904401,
+   "ratio": 12.099395965938374,
+   "ratio_closed_form": 12.099395965938374,
+   "exp_gamma_n": 12.09939596593837,
+   "nash_gap_at_greedy": 0.30193236714975846,
+   "assertions": {
+    "greedy output is (0,1) repeated": true,
+    "the equilibrium is unique": true,
+    "the unique equilibrium is all ones": true,
+    "they differ at exactly n/2 positions": true,
+    "probability ratio matches (539/289)^(n/2)": true,
+    "ratio equals exp(gamma n) to 1e-9": true,
+    "Nash gap at the greedy output exceeds 0.30": true,
+    "that gap is exactly 125/414": true
+   },
+   "all_hold": true
+  },
+  {
+   "n": 10,
+   "greedy": "0101010101",
+   "equilibria_found": [
+    "1111111111"
+   ],
+   "hamming_distance": 5,
+   "p_greedy": 0.00119042423827613,
+   "p_nash": 0.02686311511420249,
+   "ratio": 22.566001472805482,
+   "ratio_closed_form": 22.566001472805482,
+   "exp_gamma_n": 22.566001472805468,
+   "nash_gap_at_greedy": 0.30193236714975846,
+   "assertions": {
+    "greedy output is (0,1) repeated": true,
+    "the equilibrium is unique": true,
+    "the unique equilibrium is all ones": true,
+    "they differ at exactly n/2 positions": true,
+    "probability ratio matches (539/289)^(n/2)": true,
+    "ratio equals exp(gamma n) to 1e-9": true,
+    "Nash gap at the greedy output exceeds 0.30": true,
+    "that gap is exactly 125/414": true
+   },
+   "all_hold": true
+  },
+  {
+   "n": 12,
+   "greedy": "010101010101",
+   "equilibria_found": [
+    "111111111111"
+   ],
+   "hamming_distance": 6,
+   "p_greedy": 0.0003096293443756214,
+   "p_nash": 0.01303129714189963,
+   "ratio": 42.086763992533406,
+   "ratio_closed_form": 42.086763992533406,
+   "exp_gamma_n": 42.08676399253339,
+   "nash_gap_at_greedy": 0.30193236714975846,
+   "assertions": {
+    "greedy output is (0,1) repeated": true,
+    "the equilibrium is unique": true,
+    "the unique equilibrium is all ones": true,
+    "they differ at exactly n/2 positions": true,
+    "probability ratio matches (539/289)^(n/2)": true,
+    "ratio equals exp(gamma n) to 1e-9": true,
+    "Nash gap at the greedy output exceeds 0.30": true,
+    "that gap is exactly 125/414": true
+   },
+   "all_hold": true
+  }
+ ],
+ "all_hold": true
+}

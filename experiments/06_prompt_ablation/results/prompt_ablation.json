@@ -1,0 +1,212 @@
+{
+ "clapnq": {
+  "dataset": "clapnq",
+  "prompts": {
+   "questions": 300,
+   "mean_prompt_characters_instruction": 1047.4533333333334,
+   "mean_prompt_characters_qa": 978.4533333333334
+  },
+  "systems": {
+   "opt_350m": {
+    "display": "OPT-350M",
+    "family": "autoregressive",
+    "instruction": {
+     "F1": 33.20555541978983,
+     "RL": 32.13531986436597,
+     "RLsum": 33.38998106562407
+    },
+    "qa": {
+     "F1": 29.579508103840404,
+     "RL": 28.478549504096044,
+     "RLsum": 29.84620972979347
+    },
+    "qa_minus_instruction_f1": -3.6260473159493936,
+    "bootstrap_ci": [
+     -5.9811667245389994,
+     -1.2793069538407909
+    ],
+    "interval_excludes_zero": true
+   },
+   "gpt2_large": {
+    "display": "GPT-2 Large",
+    "family": "autoregressive",
+    "instruction": {
+     "F1": 33.05883321731655,
+     "RL": 31.502104680536075,
+     "RLsum": 33.67622521479244
+    },
+    "qa": {
+     "F1": 34.73253646496428,
+     "RL": 32.568951774578984,
+     "RLsum": 34.90928203853834
+    },
+    "qa_minus_instruction_f1": 1.673703247647706,
+    "bootstrap_ci": [
+     -0.33678497500481414,
+     3.757420711570768
+    ],
+    "interval_excludes_zero": false
+   },
+   "falcon_7b": {
+    "display": "Falcon-7B",
+    "family": "autoregressive",
+    "instruction": {
+     "F1": 34.38888622551344,
+     "RL": 32.90744942236901,
+     "RLsum": 34.49895323744533
+    },
+    "qa": {
+     "F1": 32.86655626625487,
+     "RL": 29.79872268937564,
+     "RLsum": 32.606184895336504
+    },
+    "qa_minus_instruction_f1": -1.5223299592585642,
+    "bootstrap_ci": [
+     -3.8609226063048037,
+     0.7205461478852524
+    ],
+    "interval_excludes_zero": false
+   },
+   "ettin_400m": {
+    "display": "Ettin-400m",
+    "family": "nash",
+    "instruction": {
+     "F1": 34.037339592061386,
+     "RL": 31.611475969197503,
+     "RLsum": 33.8414964906524
+    },
+    "qa": {
+     "F1": 28.220358904625876,
+     "RL": 26.94548227583919,
+     "RLsum": 28.160346137246282
+    },
+    "qa_minus_instruction_f1": -5.816980687435513,
+    "bootstrap_ci": [
+     -7.92877328296902,
+     -3.764093021541982
+    ],
+    "interval_excludes_zero": true
+   },
+   "modernbert_large": {
+    "display": "ModernBERT-Large",
+    "family": "nash",
+    "instruction": {
+     "F1": 38.03593080084492,
+     "RL": 34.794626738320304,
+     "RLsum": 37.4215763463379
+    },
+    "qa": {
+     "F1": 36.998323544474054,
+     "RL": 33.25241049568465,
+     "RLsum": 36.38810139706609
+    },
+    "qa_minus_instruction_f1": -1.0376072563708338,
+    "bootstrap_ci": [
+     -3.9273995719929045,
+     1.8706111833328039
+    ],
+    "interval_excludes_zero": false
+   }
+  }
+ },
+ "pubmedqa": {
+  "dataset": "pubmedqa",
+  "prompts": {
+   "questions": 500,
+   "mean_prompt_characters_instruction": 1536.272,
+   "mean_prompt_characters_qa": 1466.272
+  },
+  "systems": {
+   "opt_350m": {
+    "display": "OPT-350M",
+    "family": "autoregressive",
+    "instruction": {
+     "F1": 23.427401986304897,
+     "RL": 20.429618503319134,
+     "RLsum": 21.406568083605833
+    },
+    "qa": {
+     "F1": 23.830513354513478,
+     "RL": 19.67581258135282,
+     "RLsum": 21.981809381144426
+    },
+    "qa_minus_instruction_f1": 0.40311136820859833,
+    "bootstrap_ci": [
+     -0.8329954348616152,
+     1.6039578137041635
+    ],
+    "interval_excludes_zero": false
+   },
+   "gpt2_large": {
+    "display": "GPT-2 Large",
+    "family": "autoregressive",
+    "instruction": {
+     "F1": 22.091032947819695,
+     "RL": 19.845126591917722,
+     "RLsum": 20.840674279747667
+    },
+    "qa": {
+     "F1": 24.734401246927995,
+     "RL": 21.367072315376518,
+     "RLsum": 22.884021642030564
+    },
+    "qa_minus_instruction_f1": 2.6433682991082867,
+    "bootstrap_ci": [
+     1.4151896961139583,
+     3.835535552312713
+    ],
+    "interval_excludes_zero": true
+   },
+   "falcon_7b": {
+    "display": "Falcon-7B",
+    "family": "autoregressive",
+    "instruction": {
+     "F1": 22.306284010022136,
+     "RL": 19.17794701029649,
+     "RLsum": 21.346733293460723
+    },
+    "qa": {
+     "F1": 24.117267373024323,
+     "RL": 20.237020250787776,
+     "RLsum": 22.796119294068937
+    },
+    "qa_minus_instruction_f1": 1.8109833630022036,
+    "bootstrap_ci": [
+     0.534745218413067,
+     3.1540316894020384
+    ],
+    "interval_excludes_zero": true
+   },
+   "ettin_400m": {
+    "display": "Ettin-400m",
+    "family": "nash",
+    "instruction": {
+     "F1": 22.76917880539425,
+     "RL": 20.052895625968546,
+     "RLsum": 21.65175789812732
+    },
+    "qa": null
+   },
+   "modernbert_large": {
+    "display": "ModernBERT-Large",
+    "family": "nash",
+    "instruction": {
+     "F1": 24.279159066028186,
+     "RL": 20.331527073807248,
+     "RLsum": 21.36244211207474
+    },
+    "qa": {
+     "F1": 13.84429333387842,
+     "RL": 12.056558508913616,
+     "RLsum": 12.84411194316896
+    },
+    "qa_minus_instruction_f1": -10.434865732149753,
+    "bootstrap_ci": [
+     -12.149835151144337,
+     -8.825385020999228
+    ],
+    "interval_excludes_zero": true
+   }
+  }
+ }
+}

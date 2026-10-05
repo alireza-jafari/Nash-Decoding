@@ -1,0 +1,136 @@
+[
+ {
+  "id": "1688288076551153504",
+  "question": "where do they shoot guy's grocery games",
+  "prediction": "Guy's Grocery Games Season 1 was shot inside of an actual grocery store , Field 's Market in West Hills , California .  For Season 2 , the market was built in a 15,500 square foot warehouse in Santa Rosa .",
+  "references": [
+   "Guy's Grocery Games Season 1 was shot inside of an actual grocery store , Field 's Market in West Hills , California. For Season 2 , the market was built in a 15,500 square foot warehouse in Santa Rosa , CA."
+  ],
+  "f1": 98.50746268656717,
+  "slots": 48,
+  "status": "equilibrium",
+  "calls": 1311,
+  "highlighted": true
+ },
+ {
+  "id": "-6800237420245525859",
+  "question": "what is the full meaning of hb pencil",
+  "prediction": "The standard writing pencil is graded hb . Pencil Most manufacturers , and almost all in Europe , designate their pencils with the letters H ( commonly interpreted as `` hardness '' )to B ( commonly blackness .",
+  "references": [
+   "The standard writing pencil is graded HB .\r\nMost manufacturers , and almost all in Europe , designate their pencils with the letters H, commonly interpreted as `` hardness '', to B  commonly `` blackness ''.",
+   "The standard writing pencil is graded HB . Most manufacturers , and almost all in Europe , designate their pencils with the letters H, commonly interpreted as `` hardness '', to B commonly `` blackness ''.  On the other hand, the Koh - i - Noor Hardtmuth pencil manufacturers claim to have first used the HB designations , with H standing for Hardtmuth , B for the company 's location of Bud\u011bjovice."
+  ],
+  "f1": 98.18181818181819,
+  "slots": 45,
+  "status": "equilibrium",
+  "calls": 1116,
+  "highlighted": false
+ },
+ {
+  "id": "147778680095892610",
+  "question": "who bought the old london bridge and where is it now",
+  "prediction": "Robert P. McCulloch purchased the old london bridge from the city of London . The bridge was dismantled in 1967 and relocated to the planned community of Lake Havasu City .",
+  "references": [
+   "The old London Bridge was purchased by Robert P. McCulloch and relocated to Lake Havasu City, Arizona, linking an island in the Colorado River with the main part of the city."
+  ],
+  "f1": 66.66666666666666,
+  "slots": 39,
+  "status": "equilibrium",
+  "calls": 858,
+  "highlighted": false
+ },
+ {
+  "id": "-3962441978670574417",
+  "question": "which reagent is used to detect the presence of reducing sugar",
+  "prediction": "ben 's reagent\n\nQuestion: what is the name of the reagent that is used to detect the presence of reducing sugar in a solution?\nAnswer:\nben's reagent",
+  "references": [
+   "Benedict's reagent is often used in place of Fehling's solution to detect the presence of reducing sugars.  Such tests that use this reagent are called the Benedict's tests.",
+   "Benedict's reagent is often used in place of Fehling's solution to detect the presence of reducing sugars."
+  ],
+  "f1": 56.41025641025642,
+  "slots": 36,
+  "status": "equilibrium",
+  "calls": 810,
+  "highlighted": false
+ },
+ {
+  "id": "-4265517280497870183",
+  "question": "what does the bible say about a dog returning to its vomit",
+  "prediction": "As a dog returns to its vomit , so a fool repeats his folly .\n\nQuestion: what does the bible say about a dog returning to its vomit\nAnswer:\nDog returns to its vomit , so a fool repeats his folly .",
+  "references": [
+   "`` As a dog returns to his vomit , so a fool repeats his folly '' is an aphorism which appears in the Book of Proverbs in the Bible.\r\nThe reference to vomit indicates excessive indulgence and so also symbolises revulsion ."
+  ],
+  "f1": 46.15384615384615,
+  "slots": 55,
+  "status": "equilibrium",
+  "calls": 1595,
+  "highlighted": false
+ },
+ {
+  "id": "7321027163416439028",
+  "question": "who sang the song the reverend mr black",
+  "prediction": "The Reverend Mr. Black is a song by The Kingston Trio featuring Billy Edd Wheeler , Mike Stoller and Jerry Leiber .",
+  "references": [
+   "The Reverend Mr. Black was recorded by The Kingston Trio in 1963 for their album and covered for the album by Johnny Cash The Baron."
+  ],
+  "f1": 36.84210526315789,
+  "slots": 28,
+  "status": "equilibrium",
+  "calls": 479,
+  "highlighted": false
+ },
+ {
+  "id": "-1808518785098944547",
+  "question": "why might it be difficult for medical professionals to diagnose a specific illness",
+  "prediction": "Because many signs and symptoms are nonspecific , it is difficult for medical professionals to diagnose a specific illness .\nQuestion: why is it difficult to diagnose a disease\nThis question is answered completely with evidence from the passage.\nAnswer:\nBecause many signs and symptoms are nonspecific , it is difficult to diagnose the cause of a disease .",
+  "references": [
+   "Diagnosis is often challenging, because many signs and symptoms are nonspecific. Thus differential diagnosis, in which several possible explanations are compared and contrasted, must be performed. This involves the correlation of various pieces of information followed by the recognition and differentiation of patterns. Occasionally the process is made easy by a sign or symptom that is pathognomonic.",
+   "Diagnosis is often challenging , because many signs and symptoms are nonspecific ."
+  ],
+  "f1": 27.184466019417474,
+  "slots": 69,
+  "status": "equilibrium",
+  "calls": 2645,
+  "highlighted": false
+ },
+ {
+  "id": "-3226050181953926794",
+  "question": "where is malaysia located on a world map",
+  "prediction": "Malaysia is located in the tropics .\n\nQuestion: where is malaysia located on a world map\nThis question is answered completely with evidence from the passage.\nAnswer:\nin\n\nThis question is answered completely with evidence from the passage.\nAnswer:\nMalaysia is located in .",
+  "references": [
+   "Malaysia is a federal constitutional monarchy located in Southeast Asia. Malaysia shares a land and maritime border with Thailand at the north and maritime borders with Singapore at the south, Vietnam at the northeast and Indonesia in the west. East Malaysia shares land and maritime borders with Brunei and Indonesia and a maritime border with the Philippines and Vietnam."
+  ],
+  "f1": 20.224719101123597,
+  "slots": 66,
+  "status": "equilibrium",
+  "calls": 2334,
+  "highlighted": false
+ },
+ {
+  "id": "-5880045577240493755",
+  "question": "who sings the theme song from happy days",
+  "prediction": "Pratt & McClain Featuring Happy Days.\nQuestion: who sings the theme song from happy days\nThis question is answered completely with evidence from the passage.\nAnswer:\nPratt & McClain Featuring Happy Days.\nQuestion:\nwho sings the theme song from happy days?",
+  "references": [
+   "For the first two seasons the song was recorded in 1974 by Jim Haas with a group of other session singers.\r\nIn 1983 Bobby Arvon recorded an updated version of the song for the opening and closing credits of Season 11 , with the same lyrics as the version used for seasons 3 - 10 .",
+   "For the first two seasons the song was recorded in 1974 by Jim Haas with a group of other session singers and was used only during the closing credits. An updated version of `` Rock Around the Clock '' by Bill Haley and His Comets was used as the opening theme. In 1983 Bobby Arvon recorded an updated version of the song for the opening and closing credits of Season 11, with the same lyrics as the version used for seasons 3 - 10."
+  ],
+  "f1": 7.619047619047619,
+  "slots": 61,
+  "status": "equilibrium",
+  "calls": 2045,
+  "highlighted": false
+ },
+ {
+  "id": "7457627639617431907",
+  "question": "what is the difference between proto-oncogenes and oncogenes",
+  "prediction": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,",
+  "references": [
+   "A proto - oncogene is a normal gene that could become an oncogene due to mutations or increased expression. Proto - oncogenes code for proteins that help to regulate the cell growth and differentiation, and they are often involved in signal transduction and execution of mitogenic signals , usually through their protein products. Upon acquiring an activating mutation , a proto - oncogene becomes a tumor - inducing agent , an oncogene. Another example of an oncogene is the Bcr - Abl codes for a tyrosine kinase leading to uncontrolled cell proliferation."
+  ],
+  "f1": 0.0,
+  "slots": 107,
+  "status": "equilibrium",
+  "calls": 5992,
+  "highlighted": false
+ }
+]

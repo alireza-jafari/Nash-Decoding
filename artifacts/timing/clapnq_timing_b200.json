@@ -1,0 +1,31 @@
+{
+ "AR/falcon_7b": {
+  "calls": 63.516666666666666,
+  "n": 60,
+  "seconds": 1.1259693291814377
+ },
+ "AR/gpt2_large": {
+  "calls": 59.88333333333333,
+  "n": 60,
+  "seconds": 0.4360801339537526
+ },
+ "AR/opt_350m": {
+  "calls": 59.88333333333333,
+  "n": 60,
+  "seconds": 0.2916314224945381
+ },
+ "Nash/modernbert_large_l2r": {
+  "calls": 248.9,
+  "calls_to_full": 59.7,
+  "n": 60,
+  "seconds": 1.726169739814941,
+  "seconds_to_full": 0.6602724965467739
+ },
+ "Nash/modernbert_large_maxgap": {
+  "calls": 2709.6666666666665,
+  "calls_to_full": 2553.95,
+  "n": 60,
+  "seconds": 17.43238013330459,
+  "seconds_to_full": 16.473482063257446
+ }
+}
